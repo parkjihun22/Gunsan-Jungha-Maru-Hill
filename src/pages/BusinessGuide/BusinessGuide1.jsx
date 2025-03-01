@@ -13,13 +13,13 @@ import { Helmet } from "react-helmet-async";
 
 const projectData = [
   { label: "사업명", value: "군산 경장동 중해마루힐" },
-  { label: "사업위치", value: "평택 브레인시티 공동 8BL 공동주택 신축공사" },
-  { label: "대지면적", value: "106,050.4985㎡" },
-  { label: "건축면적", value: "5,856.1192㎡" },
-  { label: "연면적", value: "145,169.3956㎡" },
+  { label: "사업위치", value: "전북 군산시 경장동 518-1번지 신축공사" },
+  { label: "대지면적", value: "7,997㎡" },
+  { label: "건축면적", value: "6,470.924㎡" },
+  { label: "연면적", value: "71,073㎡" },
   { label: "용적률", value: "229.55%" },
-  { label: "건축규모", value: "지하 2층, 지상 최고 34층, 6개동" },
-  { label: "세대수", value: "889세대 (전용 59㎡ 232세대, 전용 84㎡ 657세대)" },
+  { label: "건축규모", value: "지하 1층, 지상 최고 46층, 3개동" },
+  { label: "세대수", value: "378세대 ( 전용 84㎡ A,B,C,D 378세대)" },
 ];
 
 const BusinessGuide1 = () => {
