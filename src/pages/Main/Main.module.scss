@@ -127,7 +127,7 @@
 @media (max-width: 900px) {
     .mainImageTextBox1 {
         position: absolute;
-        top: 15%; /* 모바일에서 더 상단에 위치 */
+        top: 26%; /* 모바일에서 더 상단에 위치 */
         left: 50%;
         transform: translateX(-50%); /* 중앙 정렬 */
         color: #FFFFFF;
@@ -139,7 +139,7 @@
 
     .mainImageTextSub1 {
         color: #ffffff; /* 회색 */
-        font-size: 4vw; /* 모바일에서 글자 크기 줄임 */
+        font-size: 3vw; /* 모바일에서 글자 크기 줄임 */
         line-height: 1.4;
         margin-bottom: 8px; /* 모바일에서 여백 조금 줄임 */
         animation: slideUp 1s ease-out forwards; /* 텍스트 슬라이드 애니메이션 */
@@ -147,13 +147,24 @@
 
     .mainImageText1 {
         font-family: 'GongGothicMedium';
-        font-size: 4.5vw; /* 모바일에서 더 작은 글자 크기 */
+        font-size: 4vw; /* 모바일에서 더 작은 글자 크기 */
         font-weight: bold;
         line-height: 1.4; /* 텍스트 간격 조정 */
         margin: 5px 0;
         color: #07456E; /* 파랑 색상 */
         animation: fadeInUp 1.5s ease-out forwards 0.5s; /* 점차적으로 나타나며 올라오는 효과 */
     }
+
+    .mainImageText2 {
+        font-family: 'GongGothicMedium';
+        font-size: 4vw; /* 모바일에서 더 작은 글자 크기 */
+        font-weight: bold;
+        line-height: 1.4; /* 텍스트 간격 조정 */
+        margin: 5px 0;
+        color: #f4e803; /* 파랑 색상 */
+        animation: fadeInUp 1.5s ease-out forwards 0.5s; /* 점차적으로 나타나며 올라오는 효과 */
+    }
+    
 
     .mainImageTitleBox1 {
         
@@ -163,6 +174,9 @@
         margin-top: 10px;
         color: #07456E; /* 파랑 색상 */
     }
+
+
+
 }
 
 /* 텍스트 페이드 인 애니메이션 */

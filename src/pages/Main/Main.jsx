@@ -14,6 +14,7 @@ import MobilePopup from "../../components/MobilePopup/MobilePopup";
 import Popup from "../../components/Popup/Popup";
 import MobileSectionBox from "../../components/MobileSectionBox/MobileSectionBox";
 import InterestPopup from "../../components/InterestPopup/InterestPopup"; // 새 팝업 컴포넌트 import
+import UrlContainer from "../../components/UrlContainer/UrlContainer";
 
 
 import mainImage from "../../assets/Main/Main1.jpg";
@@ -410,6 +411,7 @@ const Main = () => {
           </div> */}
 
           <div className={styles.section5}>
+            <UrlContainer />
             <Footer />
           </div>
 
@@ -464,13 +466,13 @@ const Main = () => {
                 저렴한 임대가<br />
                 <span className={styles.greyText}>착한임대료</span><br />
                 부담을 덜어주는<br />
-                <span className={styles.greyText}>무상 옵션</span><br />
-                계약금 5%로 내집마련기회<br />
-                <span className={styles.greyText}>착한조건</span>
+                <span className={styles.greyText}>무상옵션</span><br />
+                10년동안 살고 결정하는 자유<br />
+                <span className={styles.greyText}>10년민간임대</span>
               </div>
               <div className={styles.mainImageTitleBox1}>
                 <div className={styles.mainImageText1}>군산 경장동 중해마루힐</div>
-                <div className={styles.mainImageText1}>3월 OPEN 예정</div>
+                <div className={styles.mainImageText2}>3월 OPEN 예정</div>
               </div>
             </div>
           </div>
@@ -600,6 +602,7 @@ const Main = () => {
           </div> */}
 
           <div className={styles.section5}>
+          < UrlContainer />
             <Footer />
             <FixIcon />
           </div>
