@@ -322,74 +322,65 @@ const Main = () => {
             </div>
           </div>
 
-          {/* 관심고객 등록 섹션 (PC 버전) */}
-          <div className={styles.section}>
-            <div className={styles.registrationContainer}>
-              {/* 왼쪽 안내 문구 영역 */}
-              <div className={styles.registrationInfo}>
-                <div className={styles.text1}>
-                  <p>
-                    군산 경장동 중해마루힐
-                    <br />
-                    주변이 궁금하시나요?
-                  </p>
-                </div>
-                <div className={styles.text2}>
-                  <p>
-                    군산 중해마루힐
-                    <br />
-                    현장 정보 및 모델하우스 정보를 보실 수 있습니다.
-                  </p>
-                  <p>
-                    상담신청을 남겨주시거나 전화로 문의주시면
-                    <br />
-                    친절하고 자세히 안내해 드리겠습니다.
-                  </p>
-                </div>
-                <div className={styles.text3}>
-                  <p>상담문의</p>
-                </div>
-                <div className={styles.text4}>
-                  <p>1533-8848</p>
-                </div>
-              </div>
-              {/* 오른쪽 관심고객 등록 폼 영역 */}
-              <div className={styles.registrationSection}>
-                <div className={styles.registrationHeader}>군산 중해마루힐</div>
-                <div className={styles.registrationDescription}>
-                  방문예약
-                  
-                </div>
-                {/* Formspree 연동: onSubmit 제거, action, method 추가 */}
-                <form
-                  className={styles.registrationForm}
-                  action="https://formspree.io/f/xvgzeayp"
-                  method="POST"
-                >
-                  <label htmlFor="name">이름<span style={{ color: 'red' }}>*</span></label>
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder=""
-                    value={registration.name}
-                    onChange={handleInputChange}
-                    required
-                  />
-                  <label htmlFor="phonenumber">연락처<span style={{ color: 'red' }}>*</span></label>
-                  <input
-                    type="tel"
-                    name="phone"
-                    placeholder=""
-                    value={registration.phone}
-                    onChange={handleInputChange}
-                    required
-                  />
-                  
-                  <button type="submit">등록하기</button>
-                </form>
-              </div>
-            </div>
-          </div>
+          {/* ================== 방문예약 섹션 (PC) ================== */}
+<div className={styles.pcVisitContainer}>
+  {/* 상단 타이틀 영역 (좌: 제목/부제, 우: 안내문구) */}
+  <div className={styles.pcTitleRow}>
+    <div className={styles.leftTitle}>
+      <h2>군산 경장동 중해마루힐</h2>
+      <p>방문예약</p>
+    </div>
+    <div className={styles.rightText}>
+      방문예약 등록 시 모델하우스 주소 SMS발송 및
+      <br />
+      잔여세대를 안내드립니다.
+    </div>
+  </div>
+
+  {/* 입력 폼 */}
+  <form
+    className={styles.pcVisitForm}
+    action="https://formspree.io/f/xvgzvlvr"
+    method="POST"
+  >
+    <label htmlFor="name">
+      고객명 <span className={styles.redStar}>*</span>
+    </label>
+    <input
+      type="text"
+      name="name"
+      placeholder="고객명"
+      value={registration.name}
+      onChange={handleInputChange}
+      required
+    />
+
+    <label htmlFor="phone">
+      연락처 <span className={styles.redStar}>*</span>
+    </label>
+    <input
+      type="tel"
+      name="phone"
+      placeholder="010-0000-0000"
+      value={registration.phone}
+      onChange={handleInputChange}
+      required
+    />
+
+    <label htmlFor="message">
+      문의 내용
+    </label>
+    <textarea
+      name="message"
+      placeholder="문의 내용이 있을 경우 이곳에 남겨주세요."
+      value={registration.message}
+      onChange={handleInputChange}
+      rows={5}
+    />
+
+    <button type="submit">등록하기</button>
+  </form>
+</div>
 
           {/* <div className={styles.section}>
             <div className={styles.section9}>
@@ -550,40 +541,67 @@ const Main = () => {
             ))}
           </div>
 
-          {/* 관심고객 등록 섹션 (모바일 버전) */}
-          <div className={styles.containerRegistration}>
-            <div className={styles.registrationHeader}>군산 경장동 중해마루힐</div>
-            <div className={styles.registrationDescription}>
-              방문예약
-            </div>
-            {/* Formspree 연동: onSubmit 제거, action, method 추가 */}
-            <form
-              className={styles.registrationForm}
-              action="https://formspree.io/f/xvgzeayp"
-              method="POST"
-            >
-              <label htmlFor="name">이름<span style={{ color: 'red' }}>*</span></label>
-              <input
-                type="text"
-                name="name"
-                placeholder=""
-                value={registration.name}
-                onChange={handleInputChange}
-                required
-              />
-              <label htmlFor="phonenumber">연락처<span style={{ color: 'red' }}>*</span></label>
-              <input
-                type="tel"
-                name="phone"
-                placeholder=""
-                value={registration.phone}
-                onChange={handleInputChange}
-                required
-              />
-              
-              <button type="submit">등록하기</button>
-            </form>
-          </div>
+          {/* 모바일 방문예약 섹션 */}
+<div className={styles.mobileVisitContainer}>
+  <h2>군산 경장동 중해마루힐</h2>
+  <p className={styles.mobileSubTitle}>방문예약</p>
+  <p className={styles.mobileInfoText}>
+    방문예약 등록 시 모델하우스 주소 SMS발송 및<br />
+    잔여세대를 안내드립니다.
+  </p>
+
+  <form
+    className={styles.mobileVisitForm}
+    action="https://formspree.io/f/xvgzvlvr"
+    method="POST"
+  >
+    <label htmlFor="name">
+      고객명 <span className={styles.redStar}>*</span>
+    </label>
+    <input
+      type="text"
+      name="name"
+      placeholder="고객명"
+      value={registration.name}
+      onChange={handleInputChange}
+      required
+    />
+
+    <label htmlFor="phone">
+      연락처 <span className={styles.redStar}>*</span>
+    </label>
+    <input
+      type="tel"
+      name="phone"
+      placeholder="010-0000-0000"
+      value={registration.phone}
+      onChange={handleInputChange}
+      required
+    />
+    <label htmlFor="phone">
+      생년월일 <span className={styles.redStar}>*</span>
+    </label>
+    <input
+      type="number"
+      name="birthDate"
+      placeholder="0000-00-00"
+      value={registration.phone}
+      onChange={handleInputChange}
+      required
+    />
+
+    <label htmlFor="message">문의 내용</label>
+    <textarea
+      name="message"
+      placeholder="문의 내용이 있을 경우 이곳에 남겨주세요."
+      value={registration.message}
+      onChange={handleInputChange}
+      rows={5}
+    />
+
+    <button type="submit">등록하기</button>
+  </form>
+</div>
 
           <div className={styles.container2}>
             <div>

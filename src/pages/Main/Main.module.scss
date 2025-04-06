@@ -1351,4 +1351,187 @@
 }
 
   
+.pcVisitContainer {
+    width: 50%;
+    max-width: 900px;
+    margin: 100px auto; /* 가운데 정렬 */
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   
+    /* 텍스트 왼쪽 정렬 */
+    text-align: left;
+  
+    /* 타이틀 영역 (좌/우 2단) */
+    .pcTitleRow {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start; /* or baseline */
+      margin-bottom: 30px;     /* 타이틀과 폼 사이 간격 */
+    }
+  
+    .leftTitle {
+      /* 왼쪽 제목 + 부제 */
+      h2 {
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin: 0 0 5px;
+        color: #292929;
+      }
+      p {
+        font-size: 1rem;
+        font-weight: 500;
+        color: #555;
+        margin: 0;
+      }
+    }
+  
+    .rightText {
+      /* 오른쪽 안내문구 */
+      font-size: 1.1rem;
+      color: #666;
+      line-height: 1.7;
+      max-width: 400px; /* 필요하면 너비 제한 */
+      text-align: right; /* 오른쪽 정렬 or left if you prefer */
+    }
+  
+    /* 입력 폼 */
+    .pcVisitForm {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  
+      label {
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 5px;
+      }
+  
+      input,
+      textarea {
+        padding: 12px;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+  
+        &:focus {
+          outline: none;
+          border-color: #999;
+        }
+      }
+  
+      textarea {
+        resize: vertical;
+        min-height: 100px;
+      }
+  
+      button {
+        align-self: flex-start; /* 버튼 왼쪽 정렬 */
+        background-color: #292929; /* 검정색 버튼 */
+        color: #fff;
+        font-size: 1rem;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: 0.3s;
+  
+        &:hover {
+          background-color: #333;
+        }
+      }
+    }
+  
+    /* 빨간 별표 */
+    .redStar {
+      color: red;
+      margin-left: 3px;
+    }
+  }
+  
+  
+  .mobileVisitContainer {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  
+    /* 폼 전체 왼쪽 정렬 */
+    text-align: left;
+  
+    h2 {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #292929;
+    }
+  
+    .mobileSubTitle {
+      font-size: 0.9rem;
+      color: #292929;
+      margin-bottom: 15px;
+    }
+  
+    .mobileInfoText {
+      font-size: 0.85rem;
+      color: #666;
+      line-height: 1.4;
+      margin-bottom: 20px;
+    }
+  
+    .mobileVisitForm {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+  
+      label {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 3px; /* 라벨 아래 살짝 여백 */
+      }
+  
+      input,
+      textarea {
+        padding: 10px;
+        font-size: 0.9rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+  
+        &:focus {
+          outline: none;
+          border-color: #999;
+        }
+      }
+  
+      textarea {
+        resize: vertical; /* 세로 크기 조절 가능 */
+        min-height: 100px; /* 문의내용 칸 기본 높이 */
+      }
+  
+      button {
+        width: 30%;        /* 버튼 가로 크기 (원하는 대로 조정) */
+        background-color: #292929;  /* 검정색 배경 */
+        color: #fff;
+        font-size: 1rem;
+        padding: 10px ;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+  
+        &:hover {
+          background-color: #333;
+        }
+      }
+    }
+  }
+  
+  /* 빨간 별표 스타일 */
+  .redStar {
+    color: red;
+    margin-left: 3px;
+  }  
