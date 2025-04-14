@@ -58,13 +58,13 @@ const contents = (text, isLoaded) => {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    군산 500병상 규모 병원이 선택한 새도시!
+                남다른 수준의 조망, 인프라, 교육, 문화가 담긴 랜드마크를 선사합니다.
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    평택삼성전자캠퍼스 · 지제역 펜타역세권 프리미엄
+                군산의 대표 랜드마크
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    가장 높은 브랜드의 첫 시작
+                HUG주택도시보증공사의 보증으로 10년 동안 안심하고 거주할 수 있는 안정성
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
                     군산 중해마루힐
@@ -78,7 +78,7 @@ const contents = (text, isLoaded) => {
                     수준 높은 생활, 첨단신도시내 착한 브랜드 아파트
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    기대하던 모든 프리미엄이 군산 경장동 중해마루힐에서 펼쳐집니다
+                군산의 중심에서 가장 높은 곳에 자리한 중해마루힐은 남다른 조망, 인프라, 교육, 문화가 한데 어우러진 프리미엄 주거 환경
                 </div>
             </>
         );
@@ -89,10 +89,10 @@ const contents = (text, isLoaded) => {
                     주거의 품격과 가치를 높이는 특화설계
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    편리한 생활을 위한 최적의 공간설계
+                엑스마트, 스타벅스, 미장초, 군산시청, 도심바람길숲공원(25년 예정) 등 원스톱특급인프라
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    소수에게만 허락된 중해마루힐 10년민간임대, 처음이자 마지막으로 군산에 찾아옵니다
+                미장지구 생활권의 다양한 편의시설을 갖추고 있습니다.
                 </div>
             </>
         );

@@ -11,7 +11,7 @@ const InterestPopup = ({ onClose, registration, handleInputChange }) => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("https://formspree.io/f/xvgzeayp", {
+      const response = await fetch("https://formspree.io/f/xvgzvlvr", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -20,7 +20,9 @@ const InterestPopup = ({ onClose, registration, handleInputChange }) => {
       });
 
       if (response.ok) {
-        setSuccessMessage("등록이 완료되었습니다.전문상담원이 확인즉시 연락드리도록 하겠습니다.");
+        setSuccessMessage(
+          "등록이 완료되었습니다. <br /> 전문상담원이 확인즉시 연락드리도록 하겠습니다."
+        );
       } else {
         setSuccessMessage("등록에 실패했습니다. 다시 시도해주세요.");
       }
@@ -33,48 +35,58 @@ const InterestPopup = ({ onClose, registration, handleInputChange }) => {
 
   return (
     <div className={styles.popupOverlay}>
-      <div className={styles.popupContainer}>
-        <button className={styles.closeBtn} onClick={onClose}>
-          &times;
-        </button>
-        <div className={styles.headerImage}>
-          <img src={bannerImage} alt="Registration Banner" />
+      <div className={styles.popupWrapper}>
+        {/* 팝업창 컨테이너 */}
+        <div className={styles.popupContainer}>
+          <div className={styles.headerImage}>
+            <img src={bannerImage} alt="Registration Banner" />
+          </div>
+          <div className={styles.formContainer}>
+            {successMessage ? (
+              <p className={styles.successMessage}>{successMessage}</p>
+            ) : (
+              <form onSubmit={handleSubmit}>
+                <div className={styles.formGroup}>
+                  <label htmlFor="name">
+                    이름<span>*</span>
+                  </label>
+                  <input
+                    type="text"
+                    name="name"
+                    value={registration.name}
+                    onChange={handleInputChange}
+                    required
+                  />
+                </div>
+                <div className={styles.formGroup}>
+                  <label htmlFor="phone">
+                    연락처<span>*</span>
+                  </label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    value={registration.phone}
+                    onChange={handleInputChange}
+                    required
+                  />
+                </div>
+                
+                <button
+                  type="submit"
+                  className={styles.submitBtn}
+                  disabled={isSubmitting}
+                >
+                  {isSubmitting ? "등록 중..." : "사전청약 관심고객 등록"}
+                </button>
+              </form>
+            )}
+          </div>
         </div>
-        <div className={styles.formContainer}>
-          {successMessage ? (
-            <p className={styles.successMessage}>{successMessage}</p>
-          ) : (
-            <form onSubmit={handleSubmit}>
-              <div className={styles.formGroup}>
-                <label htmlFor="name">
-                  이름<span>*</span>
-                </label>
-                <input
-                  type="text"
-                  name="name"
-                  value={registration.name}
-                  onChange={handleInputChange}
-                  required
-                />
-              </div>
-              <div className={styles.formGroup}>
-                <label htmlFor="phone">
-                  연락처<span>*</span>
-                </label>
-                <input
-                  type="tel"
-                  name="phone"
-                  value={registration.phone}
-                  onChange={handleInputChange}
-                  required
-                />
-              </div>
-
-              <button type="submit" className={styles.submitBtn} disabled={isSubmitting}>
-                {isSubmitting ? "등록 중..." : "등록하기"}
-              </button>
-            </form>
-          )}
+        {/* 외부 닫기 버튼 */}
+        <div className={styles.externalCloseBtnBox}>
+          <button className={styles.externalCloseBtn} onClick={onClose}>
+            &times;
+          </button>
         </div>
       </div>
     </div>

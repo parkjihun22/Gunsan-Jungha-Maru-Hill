@@ -40,7 +40,7 @@
 
 .contents {
     position: absolute;
-    top: 25vh;
+    top: 29vh;
     left: 50%;
     transform: translate(-50%, -7vh);
     text-align: center;
@@ -54,7 +54,7 @@
     }
 
     @media (max-width: 900px) {
-        top: 60%;
+        top: 80%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -72,10 +72,11 @@
         &.showTitle {
             opacity: 1;
             transform: translateY(0);
-            font-size: 3vw; /* 크기 살짝 커지는 효과 */
+            font-size: 2vw; /* 크기 살짝 커지는 효과 */
         }
 
         @media (max-width: 900px) {
+            margin-top: -9vw;
             font-size: 8vw;
         }
     }
@@ -97,7 +98,7 @@
         }
 
         @media (max-width: 900px) {
-            margin: 0.5vw;
+            margin: 1vw;
             font-size: 2vw;
         }
     }

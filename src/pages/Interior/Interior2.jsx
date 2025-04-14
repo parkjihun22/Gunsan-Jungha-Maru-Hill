@@ -10,8 +10,9 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-// 이미지 파일을 추가해야 합니다
-import page1 from "../../assets/Interior/Interior2/page1.jpg";
+// // 이미지 파일을 추가해야 합니다
+// import page1 from "../../assets/Interior/Interior2/page1.jpg";
+import Ready from "../../components/Ready/Ready";
 
 const Interior2 = () => {
   const menuContents = [
@@ -145,23 +146,23 @@ const Interior2 = () => {
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      <img
+      {/* <img
         className={`${styles.image2} ${
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
         alt="군산 경장동 중해마루힐 84A인테리어84A-image2"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
-      />
+      /> */}
 
-      <div className={styles.commonBox2}>
+      {/* <div className={styles.commonBox2}>
         <div className={styles.notice}>
           ※ 상기 이미지는 전시품목과 유상옵션이 포함된 견본주택을 촬영한 것으로
           타입별 유상옵션 적용학몽, 특화범위 및 위치는 상이하며 실제 시공시
           차이가 있을 수 있습니다.
         </div>
-      </div>
-
+      </div> */}
+      <Ready/>
       <Footer />
     </div>
   );

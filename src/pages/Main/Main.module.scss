@@ -17,7 +17,7 @@
     position: absolute;
     left: 130%; /* 화면 오른쪽 끝으로 배치 */
     top: 0.1vw; /* 세로 중앙 배치 (필요에 따라 수정 가능) */
-    width: 8vw; /* 크기 조정 (필요에 따라 변경) */
+    width: 6vw; /* 크기 조정 (필요에 따라 변경) */
     z-index: 1; /* 텍스트와 겹치지 않도록 설정 */
     animation: subPinkImgFadeIn 1.5s ease-out forwards 1.5s; /* 서서히 나타나게 */
 }
@@ -45,7 +45,7 @@
 .mainImageTextBox {
     font-weight: 900;
     position: absolute;
-    top: 37%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FFFFFF;
@@ -230,20 +230,20 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 7vw;
-        padding-top: 9vw;
+        margin-left: 5vw;
+        padding-top: 0.5vw;
 
         font-family: 'HakgyoansimBareonbatangB';
         font-weight: 700;
         font-size: 3.5vw;
 
         .text1 {
-            font-size: 2.5vw;
+            font-size: 2vw;
             color: #c98f25;
         }
 
         .text2 {
-            margin-top: 3vw;
+            margin-top: 2vw;
             font-size: 1.5vw;
             color: #461900;
         }
@@ -256,8 +256,8 @@
         }
 
         .text4 {
-            margin-top: 5vw;
-            margin-left: 2vw;
+            margin-top: 2vw;
+            margin-left: 0.1vw;
             font-size: 1.2vw;
             color: #241400;
 
@@ -278,17 +278,17 @@
         background-color: #FFFFFF;
 
         img {
-            width: 30%;
+            width: 22%;
             margin-top: 5vw;
         }
 
         .btn {
             margin-top: 3vw;
-            padding: 1vw 1.5vw;
+            padding: 0.5vw 1vw;
             background-color: #6e5e55;
             border-radius: 10vw;
             color: #FFFFFF;
-            font-size: 1.2vw;
+            font-size: 1vw;
             text-decoration: none;
         }
     }
@@ -457,7 +457,7 @@
         align-items: center;
 
         img {
-            width: 45vw;
+            width: 40vw;
             height: 100vh;
         }
 
@@ -499,7 +499,7 @@
     }
 
     .textBox {
-        margin-top: 8vw;
+        margin-top: 4vw;
         margin-left: 4vw;
 
         width: 45vw;

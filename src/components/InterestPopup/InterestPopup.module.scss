@@ -1,58 +1,54 @@
-/* InterestPopup.module.scss */
+/* 전체 화면을 덮는 오버레이 */
 .popupOverlay {
   position: fixed;
-  top: 1vw;
+  top: 0;       // 화면 최상단부터
   left: 0;
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: center;    // 세로축 중앙
+  justify-content: center; // 가로축 중앙
   z-index: 1100;
 }
 
+/* 팝업 래퍼: 팝업컨테이너 + 닫기버튼을 감싸는 요소 */
+.popupWrapper {
+  position: relative;
+  /* PC 기본값: 가로 폭을 30%, 최대 500px 정도로 제한 */
+  width: 30%;
+  max-width: 500px;
+}
+
+/* 팝업창 컨테이너 */
 .popupContainer {
   background: #fff;
-  width: 60%;
-  max-width: 30%;
-  border-radius: 10px;
+  border-radius: 0;          // 모서리 둥글기 제거
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  position: relative;
   display: flex;
   flex-direction: column;
 }
 
-.closeBtn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: transparent;
-  border: none;
-  font-size: 1.8rem;
-  color: #333;
-  cursor: pointer;
-  z-index: 2;
-}
-
+/* 상단 배너 이미지 영역 */
 .headerImage {
   width: 100%;
-  height: 40%;    // 이미지의 높이는 유지
+  height: 40%; // 이미지 높이 유지
   overflow: hidden;
   img {
     width: 100%;
     height: 100%;
-    object-fit: cover;  // 이미지 비율 유지
+    object-fit: cover; // 이미지 비율 유지
   }
 }
 
+/* 폼 컨테이너 */
 .formContainer {
   width: 95%;
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;  // 중앙 정렬
+  align-items: center;
 
   h2 {
     text-align: center;
@@ -71,8 +67,8 @@
   .formGroup {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.5vw;
-    align-items: center;  // 수평 중앙 정렬
+    margin-bottom: 0.6vw;
+    align-items: center;
     width: 100%;
     justify-content: center;
 
@@ -94,78 +90,101 @@
       border-radius: 4px;
       transition: border-color 0.3s;
       text-align: center;
-      width: 70%;      // 입력창이 부모 너비에 맞춰 넓게 채워짐
-      max-width: 400px; // 최대 너비 설정
-      margin: 0 auto;   // 중앙 정렬
-      display: block;   // block 요소로 만들어서 자동으로 중앙 정렬
-
+      width: 70%;
+      max-width: 400px;
+      margin: 0 auto;
+      display: block;
       &:focus {
         outline: none;
-        border-color: #07456E;
+        border-color: #890d18;
       }
     }
   }
 
   .submitBtn {
-    width: 70%;
+    width: 80%;
     padding: 0.5vw;
+    margin-top: 0.5vw;
     font-size: 1vw;
     font-family: 'GongGothicMedium';
-    background-color: #07456E;
+    background-color: #890d18;
     color: #fff;
     border: none;
-    border-radius: 10px;
+    border-radius: 0;     // 버튼 모서리도 각지게 (원하면 유지)
     cursor: pointer;
     transition: background-color 0.3s;
-    
     &:hover {
-      background-color: #07456E;
+      background-color: #890d18;
     }
   }
 }
 
 /* 모바일 전용 미디어 쿼리 */
 @media screen and (max-width: 768px) {
-  .popupContainer {
-    width: 90%;
+  .popupWrapper {
+    width: 70%;     // 모바일에서 화면 폭의 90%
     max-width: 90%;
   }
   .headerImage {
-    height: 50%; // 모바일 환경에 맞게 이미지 높이 조정
+    height: 50%; // 모바일에 맞게 이미지 높이 조정
   }
   .formContainer {
     h2 {
-      font-size: 1.8rem;
+      font-size: 1.4rem; // 조금 줄이기
     }
     .formGroup {
-      margin-bottom: 1rem;
+      margin-bottom: 0.3rem;
       label {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
       }
       input {
-        width: 80%;
+        width: 70%;
         font-size: 1rem;
         padding: 10px;
       }
     }
     .submitBtn {
-      width: 80%;
+      width: 78%;
       font-size: 1rem;
+      margin-top: 20px;
       padding: 0.8rem;
     }
   }
 }
 
-
+/* 성공 메시지 스타일 */
 .successMessage {
-  font-size: 0.9vw; /* PC 버전에서의 기본 폰트 크기 */
-  color: #000000; /* 기본 글자 색상 */
+  font-size: 0.9vw; 
+  color: #000000;
 }
-
-/* 모바일 버전 스타일 */
 @media screen and (max-width: 768px) {
   .successMessage {
-    font-size: 2.3vw; /* 모바일에서의 폰트 크기 */
-    color: #000000; /* 모바일에서의 글자 색상 (예: 빨간색) */
+    font-size: 2.3vw;
+  }
+}
+
+/* 외부 닫기 버튼 박스: 래퍼 내부에 절대 배치 */
+.externalCloseBtnBox {
+  position: absolute;
+  top: 0.1px;        // 팝업 상단에서 10px
+  right: -30px;     // 팝업 오른쪽 경계 조금 벗어나도록
+  z-index: 1200;
+}
+
+/* 외부 닫기 버튼 */
+.externalCloseBtn {
+  background-color: #fff;
+  border: none;
+  width: 30px;    // px 단위로 고정
+  height: 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #f2f2f2;
   }
 }

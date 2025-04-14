@@ -10,13 +10,13 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/FloorPlan/FloorPlan2/page1.jpg";
+// import page1 from "../../assets/FloorPlan/FloorPlan2/page1.jpg";
+import Ready from "../../components/Ready/Ready";
 
 const FloorPlan2 = () => {
   const menuContents = [
     { title: "59㎡", url: "/FloorPlan/59A" },
     { title: "84㎡", url: "/FloorPlan/59B" },
-    { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
   ];
 
   const [isScroll, setIsScroll] = useState(false);
@@ -143,28 +143,28 @@ const FloorPlan2 = () => {
       </p>
 
       <div className={styles.textBox}>
-        <div>평택 브레인시티의 눈부신 가치 위에</div>
-        <div>수자인의 새로운 자부심으로 찾아옵니다.</div>
+        <div>군산의 눈부신 가치 위에</div>
+        <div>중해마루힐의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      <img
+      {/* <img
         className={`${styles.image2} ${
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
         alt="청약 안내"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
-      />
+      /> */}
 
-      <div className={styles.commonBox2}>
+      {/* <div className={styles.commonBox2}>
         <div className={styles.notice}>
           ※ 상기 이미지는 전시품목과 유상옵션이 포함된 견본주택을 촬영한 것으로
           타입별 유상옵션 적용학몽, 특화범위 및 위치는 상이하며 실제 시공시
           차이가 있을 수 있습니다.
         </div>
-      </div>
-
+      </div> */}
+      <Ready/>
       <Footer />
     </div>
   );

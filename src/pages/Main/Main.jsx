@@ -47,36 +47,36 @@ const section3Contents = [
   {
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
-    text1: `앞선 직주근접 라이프`,
-    text2: `세계최대규모 규모의 삼성전자 평택캠퍼스<br />
-            송탄·칠괴 산단,KG모빌리티 등 <br /> 직주근접 프리미엄`,
+    text1: `군산의 프리미엄 아파트!`,
+    text2: `군산의 중심에서 가장 높은 곳까지!<br />
+            조망, 인프라, 교육, 문화가 담긴 <br />랜드마크를 선사합니다.`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image2,
     title: "PREMIUM 02",
-    text1: `안심학세권 프리미엄`,
-    text2: `단지인근내 초·중·고 모두 개교예정,<br />
-              카이스트평택캠퍼스 2027년 개교예정`,
+    text1: `원스톱 교육!`,
+    text2: `미장초등학교, 군산동초등학교, 원광유치원<br />
+            도보통학이 가능하며<br /> 진포중학교, 군산고등학교 등의 명문학군`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image3,
     title: "PREMIUM 03",
-    text1: `경기도권내 펜타역세권 광역교통망`,
-    text2: `평택지제역 1호선,SRT·KTX·GTX A,C라인<br />
-            송탄IC,동부화고속도로(예정) 등`,
+    text1: `입체 교통망!`,
+    text2: `평단지 앞 번영로를 통한 군산 시내 · 외<br />
+            쾌속교통망과 고속 · 시외버스터미널,<br /> 군산 · 동군산IC가 근접`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image4,
     title: "PREMIUM 04",
-    text1: `합리적인 분양가 상한제`,
-    text2: `입주자의 경제적 부담을 낮춘<br />
-            내집마련의 기회`,
+    text1: `인프라의 중심!`,
+    text2: `엑스마트, 스타벅스, 롯데몰, 군산시청,<br />
+            보건소, 군산전북대학교병원(28년 예정)등의 <br />다양한 인프라`,
     link: "/LocationEnvironment/primium",
     linkText: "더 알아보기 >",
   },
@@ -169,7 +169,7 @@ const Main = () => {
         // PC 버전
         <>
           <Header isChanged={isScroll} />
-          {isOpenPopup1 && (
+          {/* {isOpenPopup1 && (
             <Popup
               onClosed={() => setIsOpenPopup1(false)}
               popupImage={popupPage1}
@@ -189,7 +189,7 @@ const Main = () => {
               popupImage={popupPage3}
               numbering={3}
             />
-          )}
+          )} */}
 
           <div className={styles.imageContainer}>
             <img src={mainImage} className={styles.mainImage} alt="군산 경장동 중해마루힐-mainimage1" />
@@ -252,8 +252,8 @@ const Main = () => {
             <div className={styles.section8}>
               <div className={styles.textBox}>
                 <div className={styles.title}>
-                  소수만 누릴 수 있는<br />
-                  <span>착한가격의 아파트 군산 경장동 중해마루힐</span>
+                  군산 중해마루힐<br />
+                  <span>군산의 중심에서 가장 높은 곳까지!</span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
@@ -417,7 +417,7 @@ const Main = () => {
       ) : (
         // 모바일 버전
         <div className={styles.mobileMain}>
-          {isOpenPopup1 && (
+          {/* {isOpenPopup1 && (
             <MobilePopup
               onClosed={() => setIsOpenPopup1(!isOpenPopup1)}
               popupImage={mobilePopupPage1}
@@ -444,7 +444,7 @@ const Main = () => {
               popupImage={mobilePopupPage3}
               numbering={4}
             />
-          )}
+          )} */}
 
           <Header isChanged={isScroll} />
 
@@ -488,8 +488,8 @@ const Main = () => {
           <div className={styles.container7}>
             <div className={styles.textBox}>
               <div className={styles.title}>
-                군산의 중심으로 사는<br />
-                <span>저렴한 10년 민간임대 아파트</span>
+                군산 경장동 중해마루힐<br />
+                <span>군산의 중심에서 가장 높은 곳까지!</span>
               </div>
               <div className={styles.subTitle}>
                 <div className={styles.textLine}></div>

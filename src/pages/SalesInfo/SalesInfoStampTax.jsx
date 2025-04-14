@@ -73,7 +73,7 @@ const ComplexGuide1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="평택 브레인시티 수자인 - 인지세안내"
+          content="군산 경장동 중해마루힐 - 인지세안내"
         />
         <meta
           property="og:description"
@@ -87,13 +87,13 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://www.cssdesign.kr/SalesInfo/stampTax"
         />
-        <meta property="og:site_name" content="평택 브레인시티 수자인" />
+        <meta property="og:site_name" content="군산 경장동 중해마루힐" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="평택 브레인시티 수자인 - 인지세안내"
+          content="군산 경장동 중해마루힐 - 인지세안내"
         />
         <meta
           name="twitter:description"
@@ -114,7 +114,7 @@ const ComplexGuide1 = () => {
                  {
              "@context": "https://schema.org",
              "@type": "WebPage",
-             "name": "평택 브레인시티 수자인 - 인지세안내",
+             "name": "군산 경장동 중해마루힐 - 인지세안내",
              "description": "군산 경장동 중해마루힐의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다.",
              "url": "https://www.cssdesign.kr/SalesInfo/stampTax"
                  }
@@ -142,7 +142,7 @@ const ComplexGuide1 = () => {
 
       <div className={styles.textBox}>
         <div>인터넷 청약하는 방법을 확인하세요</div>
-        <div>소수만 누리는 프리미엄 브레인시티 수자인</div>
+        <div>소수만 누리는 프리미엄 </div>
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
@@ -151,7 +151,7 @@ const ComplexGuide1 = () => {
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="브레인시티수자인인지세안내-image1"
+        alt="군산 경장동 중해마루힐인지세안내-image1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
       />
 

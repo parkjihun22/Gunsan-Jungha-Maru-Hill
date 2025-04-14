@@ -150,7 +150,7 @@ const Brand1 = () => {
         className={`${styles.textBox} ${isTextVisible ? styles.active : ""}`}
       >
         <div>생활의 모든 것을 한걸음에</div>
-        <div>수자인, 브레인시티의 중심에 서다</div>
+        <div>군산에의 중심에 서다</div>
       </div>
 
       <img

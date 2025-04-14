@@ -30,19 +30,19 @@ const menuArray = [
       { subTitle: "선착순계약 서류안내", subUrl: "/BusinessGuide/documents" },
     ],
   },
-  {
-    title: "청약안내",
-    subMenu: [
-      { subTitle: "인터넷청약", subUrl: "/SalesInfo/guide" },
-      { subTitle: "체크포인트", subUrl: "/SalesInfo/SubscriptionGuide" },
-      { subTitle: "모집공고안내", subUrl: "/SalesInfo/announcement" },
-      { subTitle: "인지세납부안내", subUrl: "/SalesInfo/stampTax" },
-    ],
-  },
+  // {
+  //   title: "청약안내",
+  //   subMenu: [
+  //     { subTitle: "인터넷청약", subUrl: "/SalesInfo/guide" },
+  //     { subTitle: "체크포인트", subUrl: "/SalesInfo/SubscriptionGuide" },
+  //     { subTitle: "모집공고안내", subUrl: "/SalesInfo/announcement" },
+  //     { subTitle: "인지세납부안내", subUrl: "/SalesInfo/stampTax" },
+  //   ],
+  // },
   {
     title: "입지환경",
     subMenu: [
-      { subTitle: "입지안내영상", subUrl: "/FloorPlan/videos" },
+      // { subTitle: "입지안내영상", subUrl: "/FloorPlan/videos" },
       { subTitle: "입지안내", subUrl: "/LocationEnvironment/intro" },
       { subTitle: "프리미엄", subUrl: "/LocationEnvironment/primium" },
     ],
@@ -61,17 +61,17 @@ const menuArray = [
       { subTitle: "59A", subUrl: "/FloorPlan/59A" },
       { subTitle: "59B", subUrl: "/FloorPlan/59B" },
       { subTitle: "84A", subUrl: "/FloorPlan/84A" },
-      { subTitle: "84B", subUrl: "/FloorPlan/84B" },
-      { subTitle: "119A", subUrl: "/FloorPlan/114A" },
-      { subTitle: "119B", subUrl: "/FloorPlan/114B" },
+      // { subTitle: "84B", subUrl: "/FloorPlan/84B" },
+      // { subTitle: "119A", subUrl: "/FloorPlan/114A" },
+      // { subTitle: "119B", subUrl: "/FloorPlan/114B" },
     ],
   },
   {
     title: "인테리어",
     subMenu: [
-      { subTitle: "84A", subUrl: "/Interior/59A" },
-      { subTitle: "119A", subUrl: "/Interior/84A" },
-      { subTitle: "119B", subUrl: "/Interior/84B" },
+      { subTitle: "59A", subUrl: "/Interior/59A" },
+      { subTitle: "84A", subUrl: "/Interior/84A" },
+      // { subTitle: "119B", subUrl: "/Interior/84B" },
     ],
   },
 ];

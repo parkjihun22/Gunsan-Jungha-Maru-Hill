@@ -8,7 +8,8 @@ import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/BusinessGuide/BusinessGuide2/page1.jpg";
+// import page1 from "../../assets/BusinessGuide/BusinessGuide2/page1.jpg";
+import Ready from "../../components/Ready/Ready";
 
 const BusinessGuide2 = () => {
   const menuContents = [
@@ -140,17 +141,17 @@ const BusinessGuide2 = () => {
       </p>
 
       <div className={styles.textBox}>
-        <div>평택 브레인시티의 눈부신 가치 위에</div>
-        <div>브레인시티 수자인의 새로운 자부심으로 찾아옵니다.</div>
+        <div>군산의 눈부신 가치 위에</div>
+        <div>중해마루힐의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
       {/* 이미지에 isImageVisible 상태 적용 */}
-      <img
+      {/* <img
         className={`${styles.image4} ${isImageVisible ? styles.visible : ""}`}
         src={page1}
         alt="군산 경장동 중해마루힐 분양일정안내-image1"
-      />
-
+      /> */}
+      <Ready/>
       <Footer />
     </div>
   );

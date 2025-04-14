@@ -8,7 +8,8 @@ import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/ComplexGuide/ComplexGuide2/page1.jpg";
+// import page1 from "../../assets/ComplexGuide/ComplexGuide2/page1.jpg";
+import Ready from "../../components/Ready/Ready";
 
 const ComplexGuide1 = () => {
   const menuContents = [
@@ -139,21 +140,21 @@ const ComplexGuide1 = () => {
       </p>
 
       <div className={styles.textBox}>
-        <div>브레인시티 수지인이 눈부신 가치 위에</div>
+        <div>군산의 눈부신 가치 위에</div>
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      <img
+      {/* <img
         className={`${styles.image2} ${
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
         alt="군산 중해마루힐 호수배치도-image1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
-      />
+      /> */}
 
-      <div className={styles.commonBox}>
+      {/* <div className={styles.commonBox}>
         <div className={styles.notice}>
           ※ 상기 호수배치도 이미지는 소비자의 이해를 돕기 위한 것으로 실제와
           차이가 날 수 있습니다
@@ -183,8 +184,8 @@ const ComplexGuide1 = () => {
           있으며, 이에 따른 사업주체 및 시공사의 귀책사유는 없으므로,사전에
           사업부지 현장을 방문하여 확인하시기 바랍니다.
         </div>
-      </div>
-
+      </div> */}
+      <Ready/>
       <Footer />
     </div>
   );
