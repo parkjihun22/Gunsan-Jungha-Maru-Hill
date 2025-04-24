@@ -12,12 +12,20 @@ import InterestPopup from "../InterestPopup/InterestPopup";
 // FAMILY SITE 목록 예시
 const partnerSites = [
   { name: "엘리프 세종 5-1", url: "https://www.sekailog.com" },
-  { name: "용인 푸르지오 원클러스터 2단지", url: "https://www.beyinegzersizi.com" },
-  { name: "도안 벽산블루밍", url: "https://www.abcya4.com" },
   { name: "힐스테이트 용인마크밸리", url: "https://www.alwatanyh.com" },
+  { name: "현대 테크노 레이원시티", url: "https://eliasart.kr/" },
+  { name: "창원 자이위브", url: "https://brings.co.kr/" },
+  { name: "대전 성남 우미린", url: "https://www.marvelpartners.co.kr" },
+  { name: "대전 쌍용 더플래티넘", url: "https://intercs.co.kr/" },
+  { name: "용인 푸르지오 원클러스터2단지", url: "https://www.beyinegzersizi.com" },
+  { name: "구미 로제비앙 메가시티", url: "https://www.leecols.kr" },
+  { name: "원종 휴먼빌 클라츠", url: "https://www.abcya4.com/" },
+  { name: "신검단 로얄파크시티2", url: "https://www.sketchs.co.kr/" },
+  { name: "천안 쌍용 센트럴타워", url: "https://www.daincounseling.co.kr" },
+  { name: "평택 브레인시티 수자인", url: "https://www.vaaclubs.com/" },
+  { name: "브레인시티 앤네이처 미래도", url: "  https://www.marvelpartners.co.kr" },
+  { name: "평택화양 신영지웰", url: "  https://delidilly.co.kr/" },
   { name: "평택화양 동문디이스트", url: "https://www.verficktescheisse.com" },
-  { name: "평택 브레인시티 수자인", url: "https://www.vaaclubs.com" },
-
 ];
 
 const Footer = () => {
