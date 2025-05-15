@@ -14,7 +14,6 @@ const partnerSites = [
   { name: "엘리프 세종 5-1", url: "https://www.sekailog.com" },
   { name: "힐스테이트 용인마크밸리", url: "https://www.alwatanyh.com" },
   { name: "평택 브레인시티 푸르지오", url: "https://eliasart.kr/" },
-  { name: "군산 경장동 중해마루힐", url: "https://eliasart.kr/" },
   { name: "창원 자이위브", url: "https://www.cssdesign.kr/" },
   { name: "가경더센트럴리티", url: "https://www.marvelpartners.co.kr" },
   { name: "대전 쌍용 더플래티넘", url: "https://intercs.co.kr/" },
