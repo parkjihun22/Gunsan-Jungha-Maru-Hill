@@ -17,7 +17,7 @@
     position: absolute;
     left: 130%; /* 화면 오른쪽 끝으로 배치 */
     top: 0.1vw; /* 세로 중앙 배치 (필요에 따라 수정 가능) */
-    width: 6vw; /* 크기 조정 (필요에 따라 변경) */
+    width: 5vw; /* 크기 조정 (필요에 따라 변경) */
     z-index: 1; /* 텍스트와 겹치지 않도록 설정 */
     animation: subPinkImgFadeIn 1.5s ease-out forwards 1.5s; /* 서서히 나타나게 */
 }
@@ -64,12 +64,12 @@
 }
 
 .greyText {
-    font-family: 'GongGothicMedium';
+    font-family: 'Pretendard-Regular';
     color: #07456E; /* 회색 텍스트 */
 }
 
 .blueText {
-    font-family: 'GongGothicMedium';
+    font-family: 'Pretendard-Regular';
     color: #07456E; /* 파랑 텍스트 */
 }
 
@@ -82,7 +82,7 @@
 }
 
 .mainImageText {
-    font-family: 'GongGothicMedium';
+    font-family: 'Pretendard-Regular';
     font-weight: 400;
     font-size: 48px; /* 텍스트2 가장 큰 크기 */
     margin: 1vw 0;
@@ -127,7 +127,7 @@
 @media (max-width: 900px) {
     .mainImageTextBox1 {
         position: absolute;
-        top: 26%; /* 모바일에서 더 상단에 위치 */
+        top: 20%; /* 모바일에서 더 상단에 위치 */
         left: 50%;
         transform: translateX(-50%); /* 중앙 정렬 */
         color: #FFFFFF;
@@ -140,23 +140,23 @@
     .mainImageTextSub1 {
         color: #ffffff; /* 회색 */
         font-size: 3vw; /* 모바일에서 글자 크기 줄임 */
-        line-height: 1.4;
+        line-height: 1.6;
         margin-bottom: 8px; /* 모바일에서 여백 조금 줄임 */
         animation: slideUp 1s ease-out forwards; /* 텍스트 슬라이드 애니메이션 */
     }
 
     .mainImageText1 {
-        font-family: 'GongGothicMedium';
+        font-family: 'Pretendard-Regular';
+        font-weight: 900;
         font-size: 4vw; /* 모바일에서 더 작은 글자 크기 */
-        font-weight: bold;
-        line-height: 1.4; /* 텍스트 간격 조정 */
+        line-height: 1.6; /* 텍스트 간격 조정 */
         margin: 5px 0;
         color: #07456E; /* 파랑 색상 */
         animation: fadeInUp 1.5s ease-out forwards 0.5s; /* 점차적으로 나타나며 올라오는 효과 */
     }
 
     .mainImageText2 {
-        font-family: 'GongGothicMedium';
+        font-family: 'Pretendard-Regular';
         font-size: 4vw; /* 모바일에서 더 작은 글자 크기 */
         font-weight: bold;
         line-height: 1.4; /* 텍스트 간격 조정 */
@@ -167,7 +167,7 @@
     
 
     .mainImageTitleBox1 {
-        
+        font-weight: 800;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -233,7 +233,7 @@
         margin-left: 5vw;
         padding-top: 0.5vw;
 
-        font-family: 'HakgyoansimBareonbatangB';
+        font-family: 'Pretendard-Regular';
         font-weight: 700;
         font-size: 3.5vw;
 
@@ -402,7 +402,7 @@
     }
 
     .boxTitle {
-        font-family: 'HakgyoansimBareonbatangB';
+        font-family: 'Pretendard-Regular';
         font-weight: 700;
         margin-top: 2vw;
         font-size: 2vw;
@@ -426,7 +426,7 @@
 
     .boxText3 {
         text-decoration: none;
-        font-family: 'HakgyoansimBareonbatangB';
+        font-family: 'Pretendard-Regular';
         text-align: center;
         margin-top: 2.5vw;
         font-size: 1.2vw;
@@ -476,7 +476,7 @@
             transform: translate(-50%, -50%);
             color: #FFFFFF;
             font-size: 1.5vw;
-            font-family: "HakgyoansimBareonbatangB";
+            font-family: 'Pretendard-Regular';
         }
 
         .text2 {
@@ -485,7 +485,7 @@
             transform: translate(-50%, -50%);
             color: #d1af73;
             font-size: 2.5vw;
-            font-family: "GmarketSansMedium";
+            font-family: 'Pretendard-Regular';
         }
 
         .text3 {
@@ -494,18 +494,18 @@
             transform: translate(-50%, -50%);
             color: #FFFFFF;
             font-size: 1.2vw;
-            font-family: "GmarketSansMedium";
+            font-family: 'Pretendard-Regular';
         }
     }
 
     .textBox {
-        margin-top: 4vw;
+        margin-top: 6vw;
         margin-left: 4vw;
 
         width: 45vw;
 
         .text1 {
-            font-family: "HakgyoansimBareonbatangB";
+            font-family: 'Pretendard-Regular';
             font-size: 2.2vw;
             color: #c98f25;
         }
@@ -517,7 +517,7 @@
             width: 100%;
             text-align: center;
             text-decoration: none;
-            font-family: "HakgyoansimBareonbatangB";
+            font-family: 'Pretendard-Regular';
             font-size: 1.5vw;
             color: #d1af73;
         }
@@ -702,7 +702,7 @@
         padding: 10vw 0 0 0;
         width: 100%;
 
-        font-family: 'HakgyoansimBareonbatangB';
+        font-family: 'Pretendard-Regular';
         font-weight: 700;
 
         background-color: #fffbf5;
@@ -724,7 +724,7 @@
             margin: 8vw 0 0 7vw;
             margin-top: 8vw;
             font-size: 2.5vw;
-            font-family: 'HakgyoansimBareonbatangA';
+            font-family: 'Pretendard-Regular';
             font-weight: 300;
             line-height: 4vw;
             color: #928677;
@@ -782,7 +782,7 @@
         .textbox {
             padding: 5vw 0 0 5vw;
 
-            font-family: 'HakgyoansimBareonbatangB';
+            font-family: 'Pretendard-Regular';
             font-weight: 700;
             font-size: 3.5vw;
 
@@ -862,7 +862,7 @@
 
     .text1 {
         padding: 8vw 0 0 6vw;
-        font-family: "HakgyoansimBareonbatangB";
+        font-family: 'Pretendard-Regular';
         font-size: 5vw;
         color: #c98f25;
     }
@@ -871,7 +871,7 @@
         width: 100%;
         text-align: center;
         text-decoration: none;
-        font-family: "HakgyoansimBareonbatangB";
+        font-family: 'Pretendard-Regular';
         font-size: 1.5vw;
         color: #d1af73;
 
@@ -912,7 +912,7 @@
         transform: translate(-50%, -50%);
         color: #FFFFFF;
         font-size: 3vw;
-        font-family: "HakgyoansimBareonbatangB";
+        font-family: 'Pretendard-Regular';
     }
 
     .text2 {
@@ -953,13 +953,13 @@
         
         .title {
             color: #095052;
-            font-family: 'HakgyoansimBareonbatangB';
+            font-family: 'Pretendard-Regular';
             font-size: 4vw;
             font-weight: 400;
             line-height: 6vw;
 
             span:first-of-type {
-                font-family: 'HakgyoansimBareonbatangB';
+                font-family: 'Pretendard-Regular';
                 color: #b88c52;
                 font-weight: 800;
                 font-size: 5vw;
@@ -982,7 +982,7 @@
             }
 
             .subText {
-                font-family: 'HakgyoansimBareonbatangB';
+                font-family: 'Pretendard-Regular';
                 color: #0f0f1d;
                 margin: 0 0 0 0;
                 font-size: 3vw;
@@ -1019,7 +1019,7 @@
 
         .title {
             color: #07456E;
-            font-family: 'HakgyoansimBareonbatangB';
+            font-family: 'Pretendard-Regular';
             font-size: 2vw;
             font-weight: 600;
             line-height: 3.5vw;
@@ -1049,7 +1049,7 @@
 
             .subText {
                 color: #07456E;
-                font-family: 'GongGothicMedium';
+                font-family: 'Pretendard-Regular';
                 font-size: 1.3vw;
                 line-height: 2vw;
             }
@@ -1087,7 +1087,7 @@
 
         .title {
             color: #07456E;
-            font-family: 'HakgyoansimBareonbatangB';
+            font-family: 'Pretendard-Regular';
             font-size: 2vw;
             font-weight: 600;
             line-height: 2.5vw;
@@ -1117,7 +1117,7 @@
             }
 
             .subText {
-                font-family: 'HakgyoansimBareonbatangB';
+                font-family: 'Pretendard-Regular';
                 font-size: 1.3vw;
                 line-height: 2vw;
             }
@@ -1167,7 +1167,7 @@
     margin: 20px 0;
   }
   .registrationHeader {
-    font-family: 'GongGothicMedium';
+    font-family: 'Pretendard-Regular';
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 15px;

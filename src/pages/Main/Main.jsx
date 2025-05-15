@@ -201,7 +201,6 @@ const Main = () => {
               <div className={styles.mainImageTitleBox}>
                 <div className={styles.mainImageText}>군산 경장동 중해마루힐</div>
                 <div className={styles.mainImageLine}></div>
-                <div className={styles.mainImageText}>3월 OPEN 예정</div>
               </div>
               {/* 기존 관심고객 등록 링크 대신 방문예약 버튼 클릭 시 팝업 오픈 */}
               <div>
@@ -234,7 +233,13 @@ const Main = () => {
                   - 모두를 누리는 군산 경장동 중해마루힐
                 </div>
                 <div className={styles.text4}>
-                  <a href="https://naver.me/55rUFpYq" target="_black">
+                  <a
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setIsInterestPopupOpen(true);
+                    }}
+                  >
                     관심고객 등록하기 {">"}
                   </a>
                 </div>
@@ -340,7 +345,7 @@ const Main = () => {
   {/* 입력 폼 */}
   <form
     className={styles.pcVisitForm}
-    action="https://formspree.io/f/xvgzvlvr"
+    action="https://formspree.io/f/xvgzeayp"
     method="POST"
   >
     <label htmlFor="name">
@@ -462,7 +467,6 @@ const Main = () => {
               </div>
               <div className={styles.mainImageTitleBox1}>
                 <div className={styles.mainImageText1}>군산 경장동 중해마루힐</div>
-                <div className={styles.mainImageText2}>3월 OPEN 예정</div>
               </div>
             </div>
           </div>
@@ -479,7 +483,15 @@ const Main = () => {
               - 모두를 누리는 반도체밸리 주거 타운의 완성
             </div>
             <div className={styles.text4}>
-              <a href="https://naver.me/55rUFpYq" target="_black">
+              {/* 외부 링크 대신 방문예약 클릭 시 팝업 호출 */}
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                  setIsInterestPopupOpen(true);
+                }}
+                className={styles.popupBtn}
+              >
                 관심고객 등록하기 {">"}
               </a>
             </div>
@@ -552,7 +564,7 @@ const Main = () => {
 
   <form
     className={styles.mobileVisitForm}
-    action="https://formspree.io/f/xvgzvlvr"
+    action="https://formspree.io/f/xvgzeayp"
     method="POST"
   >
     <label htmlFor="name">
@@ -578,17 +590,7 @@ const Main = () => {
       onChange={handleInputChange}
       required
     />
-    <label htmlFor="phone">
-      생년월일 <span className={styles.redStar}>*</span>
-    </label>
-    <input
-      type="number"
-      name="birthDate"
-      placeholder="0000-00-00"
-      value={registration.phone}
-      onChange={handleInputChange}
-      required
-    />
+    
 
     <label htmlFor="message">문의 내용</label>
     <textarea

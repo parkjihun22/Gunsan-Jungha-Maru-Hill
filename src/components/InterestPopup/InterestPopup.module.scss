@@ -96,7 +96,7 @@
       display: block;
       &:focus {
         outline: none;
-        border-color: #890d18;
+        border-color: #07456E;
       }
     }
   }
@@ -106,15 +106,15 @@
     padding: 0.5vw;
     margin-top: 0.5vw;
     font-size: 1vw;
-    font-family: 'GongGothicMedium';
-    background-color: #890d18;
+    ffont-family: 'Pretendard-Regular';
+    background-color: #07456E;
     color: #fff;
     border: none;
     border-radius: 0;     // 버튼 모서리도 각지게 (원하면 유지)
     cursor: pointer;
     transition: background-color 0.3s;
     &:hover {
-      background-color: #890d18;
+      background-color: #07456E;
     }
   }
 }
