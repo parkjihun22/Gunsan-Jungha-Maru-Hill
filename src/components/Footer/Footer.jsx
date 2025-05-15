@@ -12,9 +12,9 @@ import InterestPopup from "../InterestPopup/InterestPopup";
 // FAMILY SITE 목록 예시
 const partnerSites = [
   { name: "엘리프 세종 5-1", url: "https://www.sekailog.com" },
-  { name: "힐스테이트 용인마크밸리", url: "https://www.alwatanyh.com" },
   { name: "평택 브레인시티 푸르지오", url: "https://eliasart.kr/" },
-  { name: "창원 자이위브", url: "https://www.cssdesign.kr/" },
+  { name: "힐스테이트 용인마크밸리", url: "https://www.cssdesign.kr/" },
+  { name: "창원 자이위브", url: "https://www.alwatanyh.com/" },
   { name: "가경더센트럴리티", url: "https://www.marvelpartners.co.kr" },
   { name: "대전 쌍용 더플래티넘", url: "https://intercs.co.kr/" },
   { name: "용인 푸르지오 원클러스터2단지", url: "https://www.beyinegzersizi.com" },
@@ -26,7 +26,7 @@ const partnerSites = [
   { name: "브레인시티 앤네이처 미래도", url: "https://niceoi.kr/" },
   { name: "평택화양 신영지웰", url: "https://delidilly.co.kr/" },
   { name: "평택화양 동문디이스트", url: "https://www.verficktescheisse.com" },
-  
+
 ];
 
 const Footer = () => {
@@ -143,7 +143,7 @@ const Footer = () => {
               </div>
               <div className={styles.companyInfo}>
                 <div>
-                  <strong>시&nbsp;공&nbsp;사</strong> (주)중해건설
+                  <strong>시&nbsp;공&nbsp;사</strong> (주)중해건설 
                 </div>
               </div>
               <div className={styles.buttonRow}>
@@ -171,7 +171,7 @@ const Footer = () => {
           </div>
           <div className={styles.desktopCopyright}>
             <p>
-              COPYRIGHTⓒ 2025 군산 경장동 중해마루힐 모델하우스 INC. ALL RIGHTS RESERVED.
+              COPYRIGHTⓒ 2025 군산 경장동 중해마루힐 INC. ALL RIGHTS RESERVED.
             </p>
           </div>
         </>
