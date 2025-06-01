@@ -62,25 +62,25 @@ const FloorPlan2 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>군산 경장동 중해마루힐 - 59타입 평면도</title>
+        <title>둔산 해링턴 플레이스 - 59타입 평면도</title>
         <meta
           name="description"
-          content="84타입의평면 안내 페이지는 군산 경장동 중해마루힐의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
+          content="84타입의평면 안내 페이지는 둔산 해링턴 플레이스의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
         />
         <meta
           name="keywords"
-          content="군산 경장동 중해마루힐, 군산 중해마루힐, 군산 중해마루힐모델하우스"
+          content="둔산 해링턴 플레이스, 둔산 해링턴, 둔산 해링턴모델하우스"
         />
         <link rel="canonical" href="https://www.cssdesign.kr/FloorPlan/59B" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="군산 경장동 중해마루힐 - 84타입 평면도"
+          content="둔산 해링턴 플레이스 - 84타입 평면도"
         />
         <meta
           property="og:description"
-          content="84타입의평면 안내 페이지는 군산 경장동 중해마루힐의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
+          content="84타입의평면 안내 페이지는 둔산 해링턴 플레이스의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
         />
         <meta
           property="og:image"
@@ -90,17 +90,17 @@ const FloorPlan2 = () => {
           property="og:url"
           content="https://www.cssdesign.kr/FloorPlan/59B"
         />
-        <meta property="og:site_name" content="군산 경장동 중해마루힐" />
+        <meta property="og:site_name" content="둔산 해링턴 플레이스" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="군산 경장동 중해마루힐 - 84타입 평면도"
+          content="둔산 해링턴 플레이스 - 84타입 평면도"
         />
         <meta
           name="twitter:description"
-          content="84타입의평면 안내 페이지는 군산 경장동 중해마루힐의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
+          content="84타입의평면 안내 페이지는 둔산 해링턴 플레이스의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
         />
         <meta
           name="twitter:image"
@@ -117,8 +117,8 @@ const FloorPlan2 = () => {
 						{
 				"@context": "https://schema.org",
 				"@type": "WebPage",
-				"name": "군산 경장동 중해마루힐 - 84타입 평면도",
-				"description": "84타입의평면 안내 페이지는 군산 경장동 중해마루힐의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요.",
+				"name": "둔산 해링턴 플레이스 - 84타입 평면도",
+				"description": "84타입의평면 안내 페이지는 둔산 해링턴 플레이스의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요.",
 				"url": "https://www.cssdesign.kr/FloorPlan/59B"
 						}
 						`}
@@ -133,18 +133,18 @@ const FloorPlan2 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        군산 경장동 중해마루힐 - 84A평면안내
+        둔산 해링턴 플레이스 - 84A평면안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        84타입의평면 안내 페이지는 군산 경장동 중해마루힐의 각 아파트 평면도를
+        84타입의평면 안내 페이지는 둔산 해링턴 플레이스의 각 아파트 평면도를
         제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활
         스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를
         확인하고 자신에게 맞는 최적의 공간을 찾아보세요.
       </p>
 
       <div className={styles.textBox}>
-        <div>군산의 눈부신 가치 위에</div>
-        <div>중해마루힐의 새로운 자부심으로 찾아옵니다.</div>
+        <div>대전의 눈부신 가치 위에</div>
+        <div>해링턴플레이스의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}

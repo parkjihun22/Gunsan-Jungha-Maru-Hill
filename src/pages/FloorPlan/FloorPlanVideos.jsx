@@ -65,25 +65,25 @@ const FloorPlanVideos= () => {
               <meta name="robots" content="index, follow" />
       
               {/* SEO 최적화를 위한 메타 태그 */}
-              <title>군산 경장동 중해마루힐 - 세대안내영상</title>
+              <title>둔산 해링턴 플레이스 - 세대안내영상</title>
               <meta
                 name="description"
-                content="세대안내영상 안내 페이지는 군산경장동중해마루힐의 각 아파트 세대안내영상를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
+                content="세대안내영상 안내 페이지는 둔산해링턴플레이스의 각 아파트 세대안내영상를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
               />
               <meta
                 name="keywords"
-                content="군산중해마루힐, 군산경장동중해마루힐, 군산중해마루힐모델하우스"
+                content="둔산해링턴, 둔산해링턴플레이스, 둔산해링턴모델하우스"
               />
               <link rel="canonical" href="https://www.cssdesign.kr/FloorPlan/videos" />
       
               {/* Open Graph - 소셜 미디어 공유 최적화 */}
               <meta
                 property="og:title"
-                content="군산 경장동 중해마루힐 - 세대안내영상"
+                content="둔산 해링턴 플레이스 - 세대안내영상"
               />
               <meta
                 property="og:description"
-                content="세대안내영상 안내 페이지는 군산경장동중해마루힐의 각 아파트 세대안내영상를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
+                content="세대안내영상 안내 페이지는 둔산해링턴플레이스의 각 아파트 세대안내영상를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
               />
               <meta
                 property="og:image"
@@ -93,17 +93,17 @@ const FloorPlanVideos= () => {
                 property="og:url"
                 content="https://www.cssdesign.kr/FloorPlan/videos"
               />
-              <meta property="og:site_name" content="군산 경장동 중해마루힐" />
+              <meta property="og:site_name" content="둔산 해링턴 플레이스" />
       
               {/* Twitter 카드 설정 */}
               <meta name="twitter:card" content="summary_large_image" />
               <meta
                 name="twitter:title"
-                content="군산 경장동 중해마루힐 - 세대안내영상"
+                content="둔산 해링턴 플레이스 - 세대안내영상"
               />
               <meta
                 name="twitter:description"
-                content="세대안내영상 안내 페이지는 군산경장동중해마루힐의 각 아파트 세대안내영상를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
+                content="세대안내영상 안내 페이지는 둔산해링턴플레이스의 각 아파트 세대안내영상를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
               />
               <meta
                 name="twitter:image"
@@ -120,8 +120,8 @@ const FloorPlanVideos= () => {
                   {
               "@context": "https://schema.org",
               "@type": "WebPage",
-              "name": "군산 경장동 중해마루힐 - 세대안내영상",
-              "description": "세대안내영상 안내 페이지는 군산경장동중해마루힐의 각 아파트 세대안내영상를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요.",
+              "name": "둔산 해링턴 플레이스 - 세대안내영상",
+              "description": "세대안내영상 안내 페이지는 둔산해링턴플레이스의 각 아파트 세대안내영상를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요.",
               "url": "https://www.cssdesign.kr/FloorPlan/videos"
                   }
                   `}
@@ -135,12 +135,12 @@ const FloorPlanVideos= () => {
       <MenuBar contents={menuContents} />
 
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-      <h1 className={styles.screenReaderOnly}>군산경장동중해마루힐 - 세대영상안내</h1>
-			<p className={styles.screenReaderOnly}>세대안내영상 안내 페이지는 군산경장동중해마루힐의 각 아파트 세대안내영상를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요.
+      <h1 className={styles.screenReaderOnly}>둔산해링턴플레이스 - 세대영상안내</h1>
+			<p className={styles.screenReaderOnly}>세대안내영상 안내 페이지는 둔산해링턴플레이스의 각 아파트 세대안내영상를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요.
 			</p>
 
 			<div className={styles.textBox}>
-				<div>군산의 의 눈부신 가치위에 찾아오는는</div>
+				<div>대전의 의 눈부신 가치위에 찾아오는는</div>
 				<div>수자인의 가치를 영상으로 확인해보세요</div>
 			</div>
 

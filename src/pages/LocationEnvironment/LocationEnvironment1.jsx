@@ -23,28 +23,28 @@ const LocationSection = [
   {
     img: section2Image1,
     titleText:
-      "군산을 더 새롭게 살수록 높아지는 미래가치",
+      "대전을 더 새롭게 살수록 높아지는 미래가치",
     contentText:
-      "남다른 수준의 조망, 인프라, 교육, 문화가 담긴 랜드마크를 선사합니다.<br /> 군산의 중심에서 가장 높은 곳까지!",
+      "남다른 수준의 조망, 인프라, 교육, 문화가 담긴 랜드마크를 선사합니다.<br /> 대전의 중심에서 가장 높은 곳까지!",
   },
   {
     img: section2Image2,
     titleText: "도보5분으로<br />의세권을 누리릴 수 있는 프리미엄",
     contentText:
-      "군산전북 대학병원<br />AI활용 첨단의료시설로<br /> 500병상 규모로 2028년 개원 예정",
+      "대전전북 대학병원<br />AI활용 첨단의료시설로<br /> 500병상 규모로 2028년 개원 예정",
   },
   {
     img: section2Image3,
     titleText: "수도권 시내·외를 더 빠르게<br />광역으로 통하는 특급 교통",
     contentText:
-      "단지 앞 번영로를 통한 군산 시내 · 외 쾌속교통망과 고속 · 시외버스터미널<br /> 군산 · 동군산IC가 근접하여 서해안고속도로 진출입이 편리",
+      "단지 앞 번영로를 통한 대전 시내 · 외 쾌속교통망과 고속 · 시외버스터미널<br /> 대전 · 동대전IC가 근접하여 서해안고속도로 진출입이 편리",
   },
   {
     img: section2Image4,
     titleText:
       "학교, 쇼핑,병원, 문화를 더 가깝게 한걸음에<br />모두 갖춘 중심생활",
     contentText:
-      "미장초등학교, 군산동초등학교, 원광유치원 도보통학이 가능하며<br />진포중학교, 군산고등학교 등의 명문학군 인접, 미장 · 수송지구 <br />학원 인프라 이용이 편리",
+      "미장초등학교, 대전동초등학교, 원광유치원 도보통학이 가능하며<br />진포중학교, 대전고등학교 등의 명문학군 인접, 미장 · 수송지구 <br />학원 인프라 이용이 편리",
   },
   {
     img: section2Image5,
@@ -57,7 +57,7 @@ const LocationSection = [
     titleText:
       "각종 인프라가 갖춰있는 최대중심상업 지구와 인접<br /> 단지 앞 도서관,공원프리미엄까지  ",
     contentText:
-      " 엑스마트, 스타벅스, 롯데몰, 군산시청, 보건소,<br />군산전북대학교병원(28년 예정)등의 다양한 인프라와 동시에 미장지구 생활권",
+      " 엑스마트, 스타벅스, 롯데몰, 대전시청, 보건소,<br />대전전북대학교병원(28년 예정)등의 다양한 인프라와 동시에 미장지구 생활권",
   },
 ];
 
@@ -103,21 +103,21 @@ const LocationEnvironment1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>군산 경장동 중해마루힐 - 입지안내</title>
+        <title>둔산 해링턴 플레이스 - 입지안내</title>
         <meta
           name="description"
           content="이 단지는 최적의 입지 조건과 우수한 교통망, 풍부한 생활 인프라, 쾌적한 녹지 환경이 완벽하게 어우러져, 편리한 생활과 미래 가치 상승을 기대할 수 있습니다. 입지안내를 통해 주변 시설, 접근성 및 발전 가능성을 상세히 확인해보세요"
         />
         <meta
           name="keywords"
-          content="군산 경장동 중해마루힐, 군산 중해마루힐, 군산 중해마루힐모델하우스"
+          content="둔산 해링턴 플레이스, 둔산 해링턴, 둔산 해링턴모델하우스"
         />
         <link rel="canonical" href="https://www.cssdesign.kr/LocationEnvironment/intro" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="군산 경장동 중해마루힐 - 입지안내"
+          content="둔산 해링턴 플레이스 - 입지안내"
         />
         <meta
           property="og:description"
@@ -131,13 +131,13 @@ const LocationEnvironment1 = () => {
           property="og:url"
           content="https://www.cssdesign.kr/LocationEnvironment/intro"
         />
-        <meta property="og:site_name" content="군산 경장동 중해마루힐" />
+        <meta property="og:site_name" content="둔산 해링턴 플레이스" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="군산 경장동 중해마루힐 - 입지안내"
+          content="둔산 해링턴 플레이스 - 입지안내"
         />
         <meta
           name="twitter:description"
@@ -158,7 +158,7 @@ const LocationEnvironment1 = () => {
 				 {
 			 "@context": "https://schema.org",
 			 "@type": "WebPage",
-			 "name": "군산 경장동 중해마루힐 - 입지안내",
+			 "name": "둔산 해링턴 플레이스 - 입지안내",
 			 "description": "이 단지는 최적의 입지 조건과 우수한 교통망, 풍부한 생활 인프라, 쾌적한 녹지 환경이 완벽하게 어우러져, 편리한 생활과 미래 가치 상승을 기대할 수 있습니다. 입지안내를 통해 주변 시설, 접근성 및 발전 가능성을 상세히 확인해보세요",
 			 "url": "https://www.cssdesign.kr/LocationEnvironment/intro"
 				 }
@@ -174,25 +174,25 @@ const LocationEnvironment1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        군산 중해마루힐 - 입지안내
+        둔산 해링턴 - 입지안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        군산 중해마루힐의 입지 안내 페이지는 이 단지의 위치와 주변 인프라에
+        둔산 해링턴의 입지 안내 페이지는 이 단지의 위치와 주변 인프라에
         대한 상세 정보를 제공합니다. 교통, 교육, 상업시설 등 다양한 생활 편의
         시설을 고려하여 이 아파트가 제공하는 생활 환경을 종합적으로 살펴볼 수
         있습니다. 입지 조건을 바탕으로 더 나은 선택을 할 수 있도록 돕습니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>갈수록 완벽해질 군산경장동 중해마루힐</div>
+        <div>갈수록 완벽해질 대전  해링턴</div>
         <div>살수록 높아질 수자인</div>
-        <div>도시를 압도할 중해건설</div>
+        <div>도시를 압도할 효성건설</div>
       </div>
 
       <img
         src={page1}
         className={styles.image2}
-        alt="군산 경장동 중해마루힐 입지안내-image1"
+        alt="둔산 해링턴 플레이스 입지안내-image1"
       />
 
       <div className={styles.section2}>

@@ -62,22 +62,22 @@ const BusinessGuide2 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>군산 경장동 중해마루힐 - 분양일정</title>
+        <title>둔산 해링턴 플레이스 - 분양일정</title>
         <meta
           name="description"
-          content="군산 경장동 중해마루힐의 분양 일정은 중요한 날짜들을 안내하는 핵심 정보입니다. 입주 희망자들에게 분양 일정과 함께 주요 일정 변경 사항을 실시간으로 제공합니다. 정확한 분양 일정을 확인하고, 청약 준비를 미리 진행할 수 있도록 도와줍니다. 분양 공고를 통해 추가 정보와 분양 조건을 확인해보세요."
+          content="둔산 해링턴 플레이스의 분양 일정은 중요한 날짜들을 안내하는 핵심 정보입니다. 입주 희망자들에게 분양 일정과 함께 주요 일정 변경 사항을 실시간으로 제공합니다. 정확한 분양 일정을 확인하고, 청약 준비를 미리 진행할 수 있도록 도와줍니다. 분양 공고를 통해 추가 정보와 분양 조건을 확인해보세요."
         />
         <meta
           name="keywords"
-          content="군산 경장동 중해마루힐, 군산 중해마루힐, 군산 중해마루힐모델하우스"
+          content="둔산 해링턴 플레이스, 둔산 해링턴, 둔산 해링턴모델하우스"
         />
         <link rel="canonical" href="https://www.cssdesign.kr/BusinessGuide/plan" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta property="og:title" content="군산 경장동 중해마루힐 - 분양일정" />
+        <meta property="og:title" content="둔산 해링턴 플레이스 - 분양일정" />
         <meta
           property="og:description"
-          content="군산 경장동 중해마루힐의 분양 일정은 중요한 날짜들을 안내하는 핵심 정보입니다. 입주 희망자들에게 분양 일정과 함께 주요 일정 변경 사항을 실시간으로 제공합니다. 정확한 분양 일정을 확인하고, 청약 준비를 미리 진행할 수 있도록 도와줍니다. 분양 공고를 통해 추가 정보와 분양 조건을 확인해보세요."
+          content="둔산 해링턴 플레이스의 분양 일정은 중요한 날짜들을 안내하는 핵심 정보입니다. 입주 희망자들에게 분양 일정과 함께 주요 일정 변경 사항을 실시간으로 제공합니다. 정확한 분양 일정을 확인하고, 청약 준비를 미리 진행할 수 있도록 도와줍니다. 분양 공고를 통해 추가 정보와 분양 조건을 확인해보세요."
         />
         <meta
           property="og:image"
@@ -87,17 +87,17 @@ const BusinessGuide2 = () => {
           property="og:url"
           content="https://www.cssdesign.kr/BusinessGuide/plan"
         />
-        <meta property="og:site_name" content="군산 경장동 중해마루힐" />
+        <meta property="og:site_name" content="둔산 해링턴 플레이스" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="군산 경장동 중해마루힐 - 분양일정"
+          content="둔산 해링턴 플레이스 - 분양일정"
         />
         <meta
           name="twitter:description"
-          content="군산 경장동 중해마루힐의 분양 일정은 중요한 날짜들을 안내하는 핵심 정보입니다. 입주 희망자들에게 분양 일정과 함께 주요 일정 변경 사항을 실시간으로 제공합니다. 정확한 분양 일정을 확인하고, 청약 준비를 미리 진행할 수 있도록 도와줍니다. 분양 공고를 통해 추가 정보와 분양 조건을 확인해보세요."
+          content="둔산 해링턴 플레이스의 분양 일정은 중요한 날짜들을 안내하는 핵심 정보입니다. 입주 희망자들에게 분양 일정과 함께 주요 일정 변경 사항을 실시간으로 제공합니다. 정확한 분양 일정을 확인하고, 청약 준비를 미리 진행할 수 있도록 도와줍니다. 분양 공고를 통해 추가 정보와 분양 조건을 확인해보세요."
         />
         <meta
           name="twitter:image"
@@ -114,8 +114,8 @@ const BusinessGuide2 = () => {
 					{
 			"@context": "https://schema.org",
 			"@type": "WebPage",
-			"name": "군산 경장동 중해마루힐 - 분양일정",
-			"description": "군산 경장동 중해마루힐의 분양 일정은 중요한 날짜들을 안내하는 핵심 정보입니다. 입주 희망자들에게 분양 일정과 함께 주요 일정 변경 사항을 실시간으로 제공합니다. 정확한 분양 일정을 확인하고, 청약 준비를 미리 진행할 수 있도록 도와줍니다. 분양 공고를 통해 추가 정보와 분양 조건을 확인해보세요.",
+			"name": "둔산 해링턴 플레이스 - 분양일정",
+			"description": "둔산 해링턴 플레이스의 분양 일정은 중요한 날짜들을 안내하는 핵심 정보입니다. 입주 희망자들에게 분양 일정과 함께 주요 일정 변경 사항을 실시간으로 제공합니다. 정확한 분양 일정을 확인하고, 청약 준비를 미리 진행할 수 있도록 도와줍니다. 분양 공고를 통해 추가 정보와 분양 조건을 확인해보세요.",
 			"url": "https://www.cssdesign.kr/BusinessGuide/plan"
 					}
 					`}
@@ -130,10 +130,10 @@ const BusinessGuide2 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        군산 경장동 중해마루힐 - 분양일정
+        둔산 해링턴 플레이스 - 분양일정
       </h1>
       <p className={styles.screenReaderOnly}>
-        군산 경장동 중해마루힐의 분양 일정은 중요한 날짜들을 안내하는 핵심
+        둔산 해링턴 플레이스의 분양 일정은 중요한 날짜들을 안내하는 핵심
         정보입니다. 입주 희망자들에게 분양 일정과 함께 주요 일정 변경 사항을
         실시간으로 제공합니다. 정확한 분양 일정을 확인하고, 청약 준비를 미리
         진행할 수 있도록 도와줍니다. 분양 공고를 통해 추가 정보와 분양 조건을
@@ -141,15 +141,15 @@ const BusinessGuide2 = () => {
       </p>
 
       <div className={styles.textBox}>
-        <div>군산의 눈부신 가치 위에</div>
-        <div>중해마루힐의 새로운 자부심으로 찾아옵니다.</div>
+        <div>대전의 눈부신 가치 위에</div>
+        <div>해링턴플레이스의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
       {/* 이미지에 isImageVisible 상태 적용 */}
       {/* <img
         className={`${styles.image4} ${isImageVisible ? styles.visible : ""}`}
         src={page1}
-        alt="군산 경장동 중해마루힐 분양일정안내-image1"
+        alt="둔산 해링턴 플레이스 분양일정안내-image1"
       /> */}
       <Ready/>
       <Footer />

@@ -77,14 +77,14 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>군산 경장동 중해마루힐 - 모집공고안내</title>
+        <title>둔산 해링턴 플레이스 - 모집공고안내</title>
         <meta
           name="description"
-          content="군산 경장동 중해마루힐의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
+          content="둔산 해링턴 플레이스의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
         />
         <meta
           name="keywords"
-          content="군산 경장동 중해마루힐, 군산 중해마루힐, 군산 중해마루힐모델하우스"
+          content="둔산 해링턴 플레이스, 둔산 해링턴, 둔산 해링턴모델하우스"
         />
         <link
           rel="canonical"
@@ -92,10 +92,10 @@ const ComplexGuide1 = () => {
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta property="og:title" content="군산 경장동 중해마루힐 - 모집공고안내" />
+        <meta property="og:title" content="둔산 해링턴 플레이스 - 모집공고안내" />
         <meta
           property="og:description"
-          content="군산 경장동 중해마루힐의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
+          content="둔산 해링턴 플레이스의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
         />
         <meta
           property="og:image"
@@ -105,17 +105,17 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://www.cssdesign.kr/SalesInfo/announcement"
         />
-        <meta property="og:site_name" content="군산 경장동 중해마루힐" />
+        <meta property="og:site_name" content="둔산 해링턴 플레이스" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="군산 경장동 중해마루힐 - 모집공고안내"
+          content="둔산 해링턴 플레이스 - 모집공고안내"
         />
         <meta
           name="twitter:description"
-          content="군산 경장동 중해마루힐의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
+          content="둔산 해링턴 플레이스의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
         />
         <meta
           name="twitter:image"
@@ -132,8 +132,8 @@ const ComplexGuide1 = () => {
                  {
              "@context": "https://schema.org",
              "@type": "WebPage",
-             "name": "군산 경장동 중해마루힐 - 모집공고안내",
-             "description": "군산 경장동 중해마루힐의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.",
+             "name": "둔산 해링턴 플레이스 - 모집공고안내",
+             "description": "둔산 해링턴 플레이스의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.",
              "url": "https://www.cssdesign.kr/SalesInfo/announcement"
                  }
                  `}
@@ -148,10 +148,10 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        군산 경장동 중해마루힐 - 모집공고안내
+        둔산 해링턴 플레이스 - 모집공고안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        군산 경장동 중해마루힐의 모집 공고는 분양 전 단계에서 중요한 안내문입니다.
+        둔산 해링턴 플레이스의 모집 공고는 분양 전 단계에서 중요한 안내문입니다.
         이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류
         등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록
         지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.
@@ -159,7 +159,7 @@ const ComplexGuide1 = () => {
 
       <div className={styles.textBox}>
         <div>입주자 모집공고안내를 확인하세요</div>
-        <div>군산 경장동 중해마루힐</div>
+        <div>둔산 해링턴 플레이스</div>
       </div>
 
       <img
@@ -167,7 +167,7 @@ const ComplexGuide1 = () => {
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="군산 경장동 중해마루힐 모집공고안내-image1"
+        alt="둔산 해링턴 플레이스 모집공고안내-image1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
       />
 

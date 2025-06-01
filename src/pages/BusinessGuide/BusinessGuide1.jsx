@@ -12,8 +12,8 @@ import tableImage from "../../assets/BusinessGuide/BusinessGuide1/tableImage.jpg
 import { Helmet } from "react-helmet-async";
 
 const projectData = [
-  { label: "사업명", value: "군산 경장동 중해마루힐" },
-  { label: "사업위치", value: "전라북도 군산시 경장동 518-1번지 일원" },
+  { label: "사업명", value: "둔산 해링턴 플레이스" },
+  { label: "사업위치", value: "전라북도 대전시   518-1번지 일원" },
   { label: "대지면적", value: "7,997.00 ㎡" },
   { label: "건축면적", value: "6,583.1444㎡" },
   { label: "연면적", value: "71,401.6875㎡" },
@@ -65,22 +65,22 @@ const BusinessGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>군산 경장동 중해마루힐 - 사업안내</title>
+        <title>둔산 해링턴 플레이스 - 사업안내</title>
         <meta
           name="description"
-          content="군산 경장동 중해마루힐은 전북특별자치도 군산시 수송로 177에 위치한 군산의 대표 랜드마크로, HIGHEST PREMIUM 콘셉트 아래, 군산 최초의 46층 건물은 군산 전경을 내려다보는 탁 트인 특급 조망을 선사합니다."
+          content="둔산 해링턴 플레이스은 전북특별자치도 대전시 수송로 177에 위치한 대전의 대표 랜드마크로, HIGHEST PREMIUM 콘셉트 아래, 대전 최초의 46층 건물은 대전 전경을 내려다보는 탁 트인 특급 조망을 선사합니다."
         />
         <meta
           name="keywords"
-          content="군산 중해마루힐, 군산 중해마루힐, 군산 중해마루힐모델하우스"
+          content="둔산 해링턴, 둔산 해링턴, 둔산 해링턴모델하우스"
         />
         <link rel="canonical" href="https://www.cssdesign.kr/Brand/intro" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta property="og:title" content="군산 경장동 중해마루힐 - 사업안내" />
+        <meta property="og:title" content="둔산 해링턴 플레이스 - 사업안내" />
         <meta
           property="og:description"
-          content="군산 경장동 중해마루힐은 전북특별자치도 군산시 수송로 177에 위치한 군산의 대표 랜드마크로, HIGHEST PREMIUM 콘셉트 아래, 군산 최초의 46층 건물은 군산 전경을 내려다보는 탁 트인 특급 조망을 선사합니다."
+          content="둔산 해링턴 플레이스은 전북특별자치도 대전시 수송로 177에 위치한 대전의 대표 랜드마크로, HIGHEST PREMIUM 콘셉트 아래, 대전 최초의 46층 건물은 대전 전경을 내려다보는 탁 트인 특급 조망을 선사합니다."
         />
         <meta
           property="og:image"
@@ -90,17 +90,17 @@ const BusinessGuide1 = () => {
           property="og:url"
           content="https://www.cssdesign.kr/Brand/intro"
         />
-        <meta property="og:site_name" content="군산 경장동 중해마루힐" />
+        <meta property="og:site_name" content="둔산 해링턴 플레이스" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="군산 경장동 중해마루힐 - 사업안내"
+          content="둔산 해링턴 플레이스 - 사업안내"
         />
         <meta
           name="twitter:description"
-          content="군산 경장동 중해마루힐은 전북특별자치도 군산시 수송로 177에 위치한 군산의 대표 랜드마크로, HIGHEST PREMIUM 콘셉트 아래, 군산 최초의 46층 건물은 군산 전경을 내려다보는 탁 트인 특급 조망을 선사합니다."
+          content="둔산 해링턴 플레이스은 전북특별자치도 대전시 수송로 177에 위치한 대전의 대표 랜드마크로, HIGHEST PREMIUM 콘셉트 아래, 대전 최초의 46층 건물은 대전 전경을 내려다보는 탁 트인 특급 조망을 선사합니다."
         />
         <meta
           name="twitter:image"
@@ -117,8 +117,8 @@ const BusinessGuide1 = () => {
 		{
 			"@context": "https://schema.org",
 			"@type": "WebPage",
-			"name": "군산 경장동 중해마루힐 - 사업안내",
-			"description": "군산 경장동 중해마루힐은 전북특별자치도 군산시 수송로 177에 위치한 군산의 대표 랜드마크로, HIGHEST PREMIUM 콘셉트 아래, 군산 최초의 46층 건물은 군산 전경을 내려다보는 탁 트인 특급 조망을 선사합니다.",
+			"name": "둔산 해링턴 플레이스 - 사업안내",
+			"description": "둔산 해링턴 플레이스은 전북특별자치도 대전시 수송로 177에 위치한 대전의 대표 랜드마크로, HIGHEST PREMIUM 콘셉트 아래, 대전 최초의 46층 건물은 대전 전경을 내려다보는 탁 트인 특급 조망을 선사합니다.",
 			"url": "https://www.cssdesign.kr/Brand/intro"
 		}
 		`}
@@ -133,10 +133,10 @@ const BusinessGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        군산 중해마루힐 - 사업안내
+        둔산 해링턴 - 사업안내
       </h1>
       <p className={styles.screenReaderOnly}>
-      군산 경장동 중해마루힐은 전북특별자치도 군산시 수송로 177에 위치한 군산의 대표 랜드마크로, HIGHEST PREMIUM 콘셉트 아래, 군산 최초의 46층 건물은 군산 전경을 내려다보는 탁 트인 특급 조망을 선사합니다.
+      둔산 해링턴 플레이스은 전북특별자치도 대전시 수송로 177에 위치한 대전의 대표 랜드마크로, HIGHEST PREMIUM 콘셉트 아래, 대전 최초의 46층 건물은 대전 전경을 내려다보는 탁 트인 특급 조망을 선사합니다.
       </p>
 
       <div className={styles.textBox}>
@@ -144,13 +144,13 @@ const BusinessGuide1 = () => {
          저렴한 임대가로 10년동안 누리는 특별한 라이프
           컬렉션
         </div>
-        <div>군산 경장동 중해마루힐의 새로운 자부심으로 찾아옵니다.</div>
+        <div>둔산 해링턴 플레이스의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
       <img
         className={styles.img3}
         src={page1}
-        alt="군산 경장동 중해마루힐 조감도-image1"
+        alt="둔산 해링턴 플레이스 조감도-image1"
       />
 
       <div className={styles.tableContainer}>

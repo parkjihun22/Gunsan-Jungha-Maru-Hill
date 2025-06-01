@@ -60,8 +60,8 @@ const FloorPlan3 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-				<div>군산의 눈부신 가치 위에</div>
-				<div>마루힐의 새로운 자부심으로 찾아옵니다.</div>
+				<div>대전의 눈부신 가치 위에</div>
+				<div>해링턴의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}

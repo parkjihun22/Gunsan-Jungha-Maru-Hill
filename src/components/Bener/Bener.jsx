@@ -40,17 +40,17 @@ const Bener = ({ title }) => {
 export default Bener;
 
 const contents = (text, isLoaded) => {
-    if (text === '중해마루힐' || text === '홍보영상' || text === '체크포인트'| text === '당첨자서류안내') {
+    if (text === '해링턴플레이스' || text === '홍보영상' || text === '체크포인트'| text === '당첨자서류안내') {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
                     지친 하루를 마치고 가장 나에 가까운 본연의 모습으로 돌아와 누리는 프리미엄입니다.
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    군산의 중심
+                    대전의 중심
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    NO.1 브랜드 군산 중해마루힐과 함께합니다.
+                    NO.1 브랜드 둔산 해링턴과 함께합니다.
                 </div>
             </>
         );
@@ -61,13 +61,13 @@ const contents = (text, isLoaded) => {
                 남다른 수준의 조망, 인프라, 교육, 문화가 담긴 랜드마크를 선사합니다.
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                군산의 대표 랜드마크
+                대전의 대표 랜드마크
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
                 HUG주택도시보증공사의 보증으로 10년 동안 안심하고 거주할 수 있는 안정성
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    군산 중해마루힐
+                    둔산 해링턴
                 </div>
             </>
         );
@@ -78,7 +78,7 @@ const contents = (text, isLoaded) => {
                     수준 높은 생활, 첨단신도시내 착한 브랜드 아파트
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                군산의 중심에서 가장 높은 곳에 자리한 중해마루힐은 남다른 조망, 인프라, 교육, 문화가 한데 어우러진 프리미엄 주거 환경
+                대전의 중심에서 가장 높은 곳에 자리한 해링턴플레이스은 남다른 조망, 인프라, 교육, 문화가 한데 어우러진 프리미엄 주거 환경
                 </div>
             </>
         );
@@ -89,7 +89,7 @@ const contents = (text, isLoaded) => {
                     주거의 품격과 가치를 높이는 특화설계
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                엑스마트, 스타벅스, 미장초, 군산시청, 도심바람길숲공원(25년 예정) 등 원스톱특급인프라
+                엑스마트, 스타벅스, 미장초, 대전시청, 도심바람길숲공원(25년 예정) 등 원스톱특급인프라
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
                 미장지구 생활권의 다양한 편의시설을 갖추고 있습니다.

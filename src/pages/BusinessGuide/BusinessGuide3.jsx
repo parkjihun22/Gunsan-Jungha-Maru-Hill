@@ -73,19 +73,19 @@ const BusinessGuide2 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>군산 경장동 중해마루힐 - 계약서류안내</title>
+        <title>둔산 해링턴 플레이스 - 계약서류안내</title>
         <meta
           name="description"
           content="계약서류안내 페이지에서는 분양 당첨 후 필요한 서류들에 대해 안내합니다. 계약 체결을 위해 준비해야 할 서류 목록과 함께, 각 서류의 제출 기한과 정확한 준비 방법을 안내하여 고객들이 혼동 없이 준비할 수 있도록 돕습니다."
         />
         <meta
           name="keywords"
-          content="군산 경장동 중해마루힐, 군산 중해마루힐, 군산 중해마루힐모델하우스"
+          content="둔산 해링턴 플레이스, 둔산 해링턴, 둔산 해링턴모델하우스"
         />
         <link rel="canonical" href="https://www.cssdesign.kr/BusinessGuide/documents" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta property="og:title" content="군산 경장동 중해마루힐 - 계약서류안내" />
+        <meta property="og:title" content="둔산 해링턴 플레이스 - 계약서류안내" />
         <meta
           property="og:description"
           content="계약서류안내 페이지에서는 분양 당첨 후 필요한 서류들에 대해 안내합니다. 계약 체결을 위해 준비해야 할 서류 목록과 함께, 각 서류의 제출 기한과 정확한 준비 방법을 안내하여 고객들이 혼동 없이 준비할 수 있도록 돕습니다."
@@ -98,13 +98,13 @@ const BusinessGuide2 = () => {
           property="og:url"
           content="https://www.cssdesign.kr/BusinessGuide/documents"
         />
-        <meta property="og:site_name" content="군산 경장동 중해마루힐" />
+        <meta property="og:site_name" content="둔산 해링턴 플레이스" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="군산 경장동 중해마루힐 - 계약서류안내"
+          content="둔산 해링턴 플레이스 - 계약서류안내"
         />
         <meta
           name="twitter:description"
@@ -125,7 +125,7 @@ const BusinessGuide2 = () => {
 								{
 						"@context": "https://schema.org",
 						"@type": "WebPage",
-						"name": "군산 경장동 중해마루힐 - 계약서류안내",
+						"name": "둔산 해링턴 플레이스 - 계약서류안내",
 						"description": "계약서류안내 페이지에서는 분양 당첨 후 필요한 서류들에 대해 안내합니다. 계약 체결을 위해 준비해야 할 서류 목록과 함께, 각 서류의 제출 기한과 정확한 준비 방법을 안내하여 고객들이 혼동 없이 준비할 수 있도록 돕습니다.",
 						"url": "https://www.cssdesign.kr/BusinessGuide/documents"
 								}
@@ -139,7 +139,7 @@ const BusinessGuide2 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-      군산 경장동 중해마루힐 - 계약서류안내
+      둔산 해링턴 플레이스 - 계약서류안내
       </h1>
       <p className={styles.screenReaderOnly}>
         계약서류안내 페이지지에서는 분양 당첨 후 필요한 서류들에 대해
@@ -149,15 +149,15 @@ const BusinessGuide2 = () => {
       </p>
 
       <div className={styles.textBox}>
-        <div>군산의 눈부신 가치 위에</div>
-        <div>군산 경장동 중해마루힐의 새로운 자부심으로 찾아옵니다.</div>
+        <div>대전의 눈부신 가치 위에</div>
+        <div>둔산 해링턴 플레이스의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
       {/* 이미지에 isImageVisible 상태 적용 */}
       {/* <img
         className={`${styles.image4} ${isImageVisible ? styles.visible : ""}`}
         src={page1}
-        alt="군산 경장동 중해마루힐 계약서류안내-image1"
+        alt="둔산 해링턴 플레이스 계약서류안내-image1"
       /> */}
       <Ready/>
       <Footer />

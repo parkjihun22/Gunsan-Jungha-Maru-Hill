@@ -60,7 +60,7 @@ const Interior3 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-				<div>군산 중해마루힐이 군산의 눈부신 가치 위에</div>
+				<div>둔산 해링턴이 대전의 눈부신 가치 위에</div>
 				<div>새로운 자부심으로 찾아옵니다.</div>
 			</div>
 

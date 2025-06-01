@@ -54,19 +54,19 @@ const Brand2 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>군산 경장동 중해마루힐 - 홍보영상</title>
+        <title>둔산 해링턴 플레이스 - 홍보영상</title>
         <meta
           name="description"
           content="최첨단 영상 기술과 감성적 스토리텔링이 어우러진 홍보영상으로, 브랜드의 미래 비전과 핵심 가치를 생생하게 전달합니다. 창의적 연출이 고객의 마음을 사로잡아 잊지 못할 경험을 선사합니다. 혁신적 비주얼과 감동 스토리로 모두를 사로잡습니다."
         />
         <meta
           name="keywords"
-          content="군산 경장동 중해마루힐, 군산 중해마루힐, 군산 중해마루힐모델하우스"
+          content="둔산 해링턴 플레이스, 둔산 해링턴, 둔산 해링턴모델하우스"
         />
         <link rel="canonical" href="https://www.cssdesign.kr/Brand/video" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta property="og:title" content="군산 경장동 중해마루힐 - 홍보영상" />
+        <meta property="og:title" content="둔산 해링턴 플레이스 - 홍보영상" />
         <meta
           property="og:description"
           content="최첨단 영상 기술과 감성적 스토리텔링이 어우러진 홍보영상으로, 브랜드의 미래 비전과 핵심 가치를 생생하게 전달합니다. 창의적 연출이 고객의 마음을 사로잡아 잊지 못할 경험을 선사합니다. 혁신적 비주얼과 감동 스토리로 모두를 사로잡습니다."
@@ -79,13 +79,13 @@ const Brand2 = () => {
           property="og:url"
           content="https://www.cssdesign.kr/Brand/video"
         />
-        <meta property="og:site_name" content="군산 경장동 중해마루힐" />
+        <meta property="og:site_name" content="둔산 해링턴 플레이스" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="군산 경장동 중해마루힐 - 홍보영상"
+          content="둔산 해링턴 플레이스 - 홍보영상"
         />
         <meta
           name="twitter:description"
@@ -106,7 +106,7 @@ const Brand2 = () => {
 															{
 																"@context": "https://schema.org",
 																"@type": "WebPage",
-																"name": "군산 경장동 중해마루힐 - 홍보영상",
+																"name": "둔산 해링턴 플레이스 - 홍보영상",
 																"description": "최첨단 영상 기술과 감성적 스토리텔링이 어우러진 홍보영상으로, 브랜드의 미래 비전과 핵심 가치를 생생하게 전달합니다. 창의적 연출이 고객의 마음을 사로잡아 잊지 못할 경험을 선사합니다. 혁신적 비주얼과 감동 스토리로 모두를 사로잡습니다.",
 																"url": "https://www.cssdesign.kr/Brand/video"
 															}
@@ -122,20 +122,20 @@ const Brand2 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        군산 경장동 중해마루힐 - 홍보영상
+        둔산 해링턴 플레이스 - 홍보영상
       </h1>
       <p className={styles.screenReaderOnly}>
-        군산 경장동 중해마루힐의 홍보 영상은 이 프로젝트의 주요 특징과 장점을
+        둔산 해링턴 플레이스의 홍보 영상은 이 프로젝트의 주요 특징과 장점을
         시각적으로 잘 전달하는 매체입니다. 고품질의 영상으로 이 단지의 설계,
         입지, 편의 시설 등 다양한 요소를 소개하며, 분양을 고민하는 고객들에게
-        유익한 정보를 제공합니다. 영상 시청을 통해 군산 경장동 중해마루힐의 매력을
+        유익한 정보를 제공합니다. 영상 시청을 통해 둔산 해링턴 플레이스의 매력을
         더 깊이 이해할 수 있습니다.
       </p>
 
       <div
         className={`${styles.textBox} ${isTextVisible ? styles.active : ""}`}
       >
-        <div>군산의 눈부신 가치 위에</div>
+        <div>대전의 눈부신 가치 위에</div>
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 

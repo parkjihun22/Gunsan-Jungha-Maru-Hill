@@ -22,7 +22,7 @@
 //     { image: img7, name: "엘리프 세종 5-1", url: "https://www.sekailog.com", image_alt: "엘리프세종5-1" },
 //     { image: img8, name: "강동역 센트럴파크", url: "https://www.donnyien.com", image_alt: "강동역센트럴파크" },
 //     { image: img4, name: "힐스테이트 용인마크밸리", url: "https://www.blog-gratuit.com/", image_alt: "힐스테이트용인마크밸리" },
-//     { image: img9, name: "군산 경장동 중해마루힐", url: "https://www.cssdesign.kr", image_alt: "군산경장동중해마루힐" }
+//     { image: img9, name: "둔산 해링턴 플레이스", url: "https://www.cssdesign.kr", image_alt: "둔산해링턴플레이스" }
     
 // ];
 

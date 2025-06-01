@@ -47,8 +47,8 @@ const section3Contents = [
   {
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
-    text1: `군산의 프리미엄 아파트!`,
-    text2: `군산의 중심에서 가장 높은 곳까지!<br />
+    text1: `대전의 프리미엄 아파트!`,
+    text2: `대전의 중심에서 가장 높은 곳까지!<br />
             조망, 인프라, 교육, 문화가 담긴 <br />랜드마크를 선사합니다.`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
@@ -57,8 +57,8 @@ const section3Contents = [
     imgSrc: section3_Image2,
     title: "PREMIUM 02",
     text1: `원스톱 교육!`,
-    text2: `미장초등학교, 군산동초등학교, 원광유치원<br />
-            도보통학이 가능하며<br /> 진포중학교, 군산고등학교 등의 명문학군`,
+    text2: `미장초등학교, 대전동초등학교, 원광유치원<br />
+            도보통학이 가능하며<br /> 진포중학교, 대전고등학교 등의 명문학군`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
@@ -66,8 +66,8 @@ const section3Contents = [
     imgSrc: section3_Image3,
     title: "PREMIUM 03",
     text1: `입체 교통망!`,
-    text2: `평단지 앞 번영로를 통한 군산 시내 · 외<br />
-            쾌속교통망과 고속 · 시외버스터미널,<br /> 군산 · 동군산IC가 근접`,
+    text2: `평단지 앞 번영로를 통한 대전 시내 · 외<br />
+            쾌속교통망과 고속 · 시외버스터미널,<br /> 대전 · 동대전IC가 근접`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
@@ -75,8 +75,8 @@ const section3Contents = [
     imgSrc: section3_Image4,
     title: "PREMIUM 04",
     text1: `인프라의 중심!`,
-    text2: `엑스마트, 스타벅스, 롯데몰, 군산시청,<br />
-            보건소, 군산전북대학교병원(28년 예정)등의 <br />다양한 인프라`,
+    text2: `엑스마트, 스타벅스, 롯데몰, 대전시청,<br />
+            보건소, 대전전북대학교병원(28년 예정)등의 <br />다양한 인프라`,
     link: "/LocationEnvironment/primium",
     linkText: "더 알아보기 >",
   },
@@ -192,14 +192,14 @@ const Main = () => {
           )} */}
 
           <div className={styles.imageContainer}>
-            <img src={mainImage} className={styles.mainImage} alt="군산 경장동 중해마루힐-mainimage1" />
+            <img src={mainImage} className={styles.mainImage} alt="둔산 해링턴 플레이스-mainimage1" />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox}>
               <div className={styles.mainImageTextSub}>
                 저렴한 임대가 <span className={styles.greyText}>착한임대료</span> | 부담을 덜어주는 <span className={styles.greyText}>무상 옵션</span> | 계약금 5%로 내집마련기회 <span className={styles.greyText}>착한조건</span>
               </div>
               <div className={styles.mainImageTitleBox}>
-                <div className={styles.mainImageText}>군산 경장동 중해마루힐</div>
+                <div className={styles.mainImageText}>둔산 해링턴 플레이스</div>
                 <div className={styles.mainImageLine}></div>
               </div>
               {/* 기존 관심고객 등록 링크 대신 방문예약 버튼 클릭 시 팝업 오픈 */}
@@ -211,7 +211,7 @@ const Main = () => {
                   <img
                     src={subpinkimg}
                     className={styles.subPinkImg}
-                    alt="군산 경장동 중해마루힐 관심고객등록 이미지"
+                    alt="둔산 해링턴 플레이스 관심고객등록 이미지"
                   />
                 </button>
               </div>
@@ -227,10 +227,10 @@ const Main = () => {
                   " 방문 예약 고객 전원 스타벅스 기프티콘 100% 증정 "
                 </div>
                 <div className={styles.text3}>
-                  - 군산 중심상업지구 매우인접 <br />
+                  - 대전 중심상업지구 매우인접 <br />
                   - 첨단 아주대학교 종합병원 도보 5분 <br />
                   - 평택 지제역 1호선, STR, KTX, GTX-A · C 확정으로 펜타역세권 <br />
-                  - 모두를 누리는 군산 경장동 중해마루힐
+                  - 모두를 누리는 둔산 해링턴 플레이스
                 </div>
                 <div className={styles.text4}>
                   <a
@@ -245,7 +245,7 @@ const Main = () => {
                 </div>
               </div>
               <div className={styles.menuBox}>
-                <img src={section1_Image1} alt="군산 경장동 중해마루힐 브랜드소개-image2" />
+                <img src={section1_Image1} alt="둔산 해링턴 플레이스 브랜드소개-image2" />
                 <Link to="/Brand/video" className={styles.btn}>
                   브랜드 소개 {">"}
                 </Link>
@@ -257,18 +257,18 @@ const Main = () => {
             <div className={styles.section8}>
               <div className={styles.textBox}>
                 <div className={styles.title}>
-                  군산 중해마루힐<br />
-                  <span>군산의 중심에서 가장 높은 곳까지!</span>
+                  둔산 해링턴<br />
+                  <span>대전의 중심에서 가장 높은 곳까지!</span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해<br />
-                    군산 중해마루힐이 함께합니다
+                    둔산 해링턴이 함께합니다
                   </div>
                 </div>
               </div>
-              <img src={section8Img3} alt="군산 경장동 중해마루힐 입지환경소개-image2" />
+              <img src={section8Img3} alt="둔산 해링턴 플레이스 입지환경소개-image2" />
             </div>
           </div>
 
@@ -279,7 +279,7 @@ const Main = () => {
                   완벽한 생활에서 준비된 미래까지
                 </div>
                 <div className={`${styles.text2} fadeUpRepeat`}>
-                  기대한 모든 프리미엄이<br />군산 중해마루힐에서 펼쳐집니다
+                  기대한 모든 프리미엄이<br />둔산 해링턴에서 펼쳐집니다
                 </div>
                 <div className={`${styles.text3} fadeUpRepeat`}>
                   SPECIAL PLAN
@@ -291,7 +291,7 @@ const Main = () => {
                   주거의 품격과 가치를 높이는 <span>특화설계</span><br />안전한 이동을 위한 세심한 <span>단지설계</span><br />편리한 생활을 위한 최적의 <span>공간설계</span>
                 </div>
               </div>
-              <img src={section2_Image1} alt="군산 경장동 중해마루힐아파트 조감도-image3" />
+              <img src={section2_Image1} alt="둔산 해링턴 플레이스아파트 조감도-image3" />
             </div>
           </div>
 
@@ -314,8 +314,8 @@ const Main = () => {
           <div className={styles.section}>
             <div className={styles.section4}>
               <div className={styles.imageBox}>
-                <img src={section4_Image1} alt="군산 경장동 중해마루힐브랜드소개-image4" />
-                <div className={styles.text1}>군산 경장동 중해마루힐</div>
+                <img src={section4_Image1} alt="둔산 해링턴 플레이스브랜드소개-image4" />
+                <div className={styles.text1}>둔산 해링턴 플레이스</div>
                 <div className={styles.text2}>THE NATURAL NOBILITY</div>
                 <div className={styles.text3}>당신의 삶, 그 고귀함이 계속되길</div>
               </div>
@@ -332,7 +332,7 @@ const Main = () => {
   {/* 상단 타이틀 영역 (좌: 제목/부제, 우: 안내문구) */}
   <div className={styles.pcTitleRow}>
     <div className={styles.leftTitle}>
-      <h2>군산 경장동 중해마루힐</h2>
+      <h2>둔산 해링턴 플레이스</h2>
       <p>방문예약</p>
     </div>
     <div className={styles.rightText}>
@@ -391,18 +391,18 @@ const Main = () => {
             <div className={styles.section9}>
               <div className={styles.textBox}>
                 <div className={styles.title}>
-                  군산 경장동 중해마루힐<br />
+                  둔산 해링턴 플레이스<br />
                   <span>견본주택 오시는길</span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해<br />
-                    군산 경장동 중해마루힐이 함께합니다
+                    둔산 해링턴 플레이스이 함께합니다
                   </div>
                 </div>
               </div>
-              <img src={map1} alt="군산 경장동 중해마루힐오시는길안내-image1" />
+              <img src={map1} alt="둔산 해링턴 플레이스오시는길안내-image1" />
             </div>
           </div> */}
 
@@ -454,7 +454,7 @@ const Main = () => {
           <Header isChanged={isScroll} />
 
           <div className={styles.imageContainer}>
-            <img src={mobileImageMain} className={styles.mainImage} alt="군산 경장동 중해마루힐mobilemain-image1" />
+            <img src={mobileImageMain} className={styles.mainImage} alt="둔산 해링턴 플레이스mobilemain-image1" />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
               <div className={styles.mainImageTextSub1}>
@@ -466,7 +466,7 @@ const Main = () => {
                 <span className={styles.greyText}>10년민간임대</span>
               </div>
               <div className={styles.mainImageTitleBox1}>
-                <div className={styles.mainImageText1}>군산 경장동 중해마루힐</div>
+                <div className={styles.mainImageText1}>둔산 해링턴 플레이스</div>
               </div>
             </div>
           </div>
@@ -477,7 +477,7 @@ const Main = () => {
               "방문예약을 하시면 신세계 상품권 100% 증정 "
             </div>
             <div className={styles.text3}>
-              - 군산 중심상업지구 가장인접한 입지<br />
+              - 대전 중심상업지구 가장인접한 입지<br />
               - 첨단 아주대학교 AI종합병원, 의료R＆D센터 도보 5분<br />
               - 평택 지제역 KTX, GTX-A · C 확정 삼성전자 평택캠퍼스, 초등학교, 수변공원<br />
               - 모두를 누리는 반도체밸리 주거 타운의 완성
@@ -500,18 +500,18 @@ const Main = () => {
           <div className={styles.container7}>
             <div className={styles.textBox}>
               <div className={styles.title}>
-                군산 경장동 중해마루힐<br />
-                <span>군산의 중심에서 가장 높은 곳까지!</span>
+                둔산 해링턴 플레이스<br />
+                <span>대전의 중심에서 가장 높은 곳까지!</span>
               </div>
               <div className={styles.subTitle}>
                 <div className={styles.textLine}></div>
                 <div className={styles.subText}>
                   완벽한 비전중심에서 완벽한 주거가치까지 더해<br />
-                  군산 중해무라힐이 함께합니다
+                  대전 무라힐이 함께합니다
                 </div>
               </div>
             </div>
-            <img src={section8Img3} alt="군산 경장동 중해마루힐mobile입지안내-image1" />
+            <img src={section8Img3} alt="둔산 해링턴 플레이스mobile입지안내-image1" />
           </div>
 
           <div className={styles.container3}>
@@ -521,15 +521,15 @@ const Main = () => {
               </div>
               <div className={`${styles.text2} fadeUpRepeat`}>
                 기대한 모든 프리미엄이<br />
-                군산 경장동 중해마루힐에서 펼쳐집니다
+                둔산 해링턴 플레이스에서 펼쳐집니다
               </div>
               <div className={`${styles.text3} fadeUpRepeat`}>SPECIAL PLAN</div>
               <div className={`${styles.text4} fadeUpRepeat`}>
                 살수록 자부심이 차원이 다른<br />
-                프리미엄 주거라이프를 군산 중해일 모델하우스에서 확인하세요
+                프리미엄 주거라이프를 대전 일 모델하우스에서 확인하세요
               </div>
             </div>
-            <img src={section2_Image1} alt="군산 경장동 중해마루힐mobile조감도-image1" />
+            <img src={section2_Image1} alt="둔산 해링턴 플레이스mobile조감도-image1" />
           </div>
 
           <div className={styles.container4}>
@@ -555,7 +555,7 @@ const Main = () => {
 
           {/* 모바일 방문예약 섹션 */}
 <div className={styles.mobileVisitContainer}>
-  <h2>군산 경장동 중해마루힐</h2>
+  <h2>둔산 해링턴 플레이스</h2>
   <p className={styles.mobileSubTitle}>방문예약</p>
   <p className={styles.mobileInfoText}>
     방문예약 등록 시 모델하우스 주소 SMS발송 및<br />
@@ -607,7 +607,7 @@ const Main = () => {
 
           <div className={styles.container2}>
             <div>
-              <img src={section1_Image1} alt="군산 경장동 중해마루힐브랜드소개 mobile-image5" />
+              <img src={section1_Image1} alt="둔산 해링턴 플레이스브랜드소개 mobile-image5" />
               <Link to="/Brand/intro" className={styles.btn}>
                 브랜드 소개 {">"}
               </Link>
@@ -616,7 +616,7 @@ const Main = () => {
 
           {/* <div className={styles.section}>
             <div className={styles.section9}>
-              <img src={mobilemap1} alt="군산 경장동 중해마루힐오시는길안내-mobileimage2" />
+              <img src={mobilemap1} alt="둔산 해링턴 플레이스오시는길안내-mobileimage2" />
             </div>
           </div> */}
 
