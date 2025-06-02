@@ -9,9 +9,9 @@ import page4 from '../../assets/Popup/page4.jpg'
 
 const popupArray = [
   { img: page1, url: "" },
-  { img: page2, url: "https://naver.me/55rUFpYq" },
-  { img: page3, url: "" },
-  { img: page4, url: "" },
+  { img: page2, url: "" },
+  // { img: page3, url: "" },
+  // { img: page4, url: "" },
 ]
 
 const Popup = () => {

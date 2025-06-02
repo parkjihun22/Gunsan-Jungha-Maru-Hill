@@ -169,7 +169,7 @@ const Main = () => {
         // PC 버전
         <>
           <Header isChanged={isScroll} />
-          {/* {isOpenPopup1 && (
+          {isOpenPopup1 && (
             <Popup
               onClosed={() => setIsOpenPopup1(false)}
               popupImage={popupPage1}
@@ -189,7 +189,7 @@ const Main = () => {
               popupImage={popupPage3}
               numbering={3}
             />
-          )} */}
+          )}
 
           <div className={styles.imageContainer}>
             <img src={mainImage} className={styles.mainImage} alt="둔산 해링턴 플레이스-mainimage1" />
@@ -422,7 +422,7 @@ const Main = () => {
       ) : (
         // 모바일 버전
         <div className={styles.mobileMain}>
-          {/* {isOpenPopup1 && (
+          {isOpenPopup1 && (
             <MobilePopup
               onClosed={() => setIsOpenPopup1(!isOpenPopup1)}
               popupImage={mobilePopupPage1}
@@ -449,7 +449,7 @@ const Main = () => {
               popupImage={mobilePopupPage3}
               numbering={4}
             />
-          )} */}
+          )}
 
           <Header isChanged={isScroll} />
 

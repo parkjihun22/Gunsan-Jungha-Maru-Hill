@@ -53,7 +53,7 @@ const MobilePopup = ({ onClosed, popupImage, numbering }) => {
                             target="_blank" 
                             alt="관심고객등록" 
                             title="관심고객등록" 
-                            href="https://naver.me/55rUFpYq" 
+                            href="" 
                             coords="1,292,359,475"  // page1의 좌표
                             shape="rect" 
                         />
@@ -66,7 +66,7 @@ const MobilePopup = ({ onClosed, popupImage, numbering }) => {
                             target="_self" 
                             alt="입주자 모집 공고" 
                             title="입주자 모집 공고" 
-                            href="https://naver.me/55rUFpYq" 
+                            href="" 
                             coords="21,452,289,542"  // page2의 좌표
                             shape="rect" 
                         />
@@ -74,7 +74,7 @@ const MobilePopup = ({ onClosed, popupImage, numbering }) => {
                             target="_self" 
                             alt="관심고객등록" 
                             title="관심고객등록" 
-                            href="https://naver.me/55rUFpYq" 
+                            href="" 
                             coords="346,556,656,439"  // page2의 좌표
                             shape="rect" 
                         />
