@@ -429,27 +429,8 @@ const Main = () => {
               numbering={1}
             />
           )}
-          {isOpenPopup2 && (
-            <MobilePopup
-              onClosed={() => setIsOpenPopup2(!isOpenPopup2)}
-              popupImage={mobilePopupPage2}
-              numbering={2}
-            />
-          )}
-          {isOpenPopup3 && (
-            <MobilePopup
-              onClosed={() => setIsOpenPopup3(!isOpenPopup3)}
-              popupImage={mobilePopupPage3}
-              numbering={3}
-            />
-          )}
-          {isOpenPopup4 && (
-            <MobilePopup
-              onClosed={() => setIsOpenPopup4(!isOpenPopup4)}
-              popupImage={mobilePopupPage3}
-              numbering={4}
-            />
-          )}
+          
+          
 
           <Header isChanged={isScroll} />
 
