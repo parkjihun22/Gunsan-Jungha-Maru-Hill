@@ -30,7 +30,7 @@
         transform: translate(-50%, -50%);
         padding: 2vw 0;
         width: 7.5vw;
-        background-color: #07456E;
+        background-color: #131a40;
         border-radius: 50%;
         text-align: center;
         text-decoration: none;
@@ -42,7 +42,7 @@
 
     &:hover {
         padding: 1vw;
-        background-color: #07456E;
+        background-color: #131a40;
         border-radius: 50%;
         transform: scale(1.1);
         transition: transform 0.4s ease;
@@ -101,11 +101,11 @@
 }
 
 .buttomBtnContainer .btn1 {
-    background-color: #07456E;
+    background-color: #131a40;
 }
 
 .buttomBtnContainer .btn2 {
     background-color: #ffffff;
     border: none;
-    color: #07456E;
+    color: #131a40;
 }

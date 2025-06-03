@@ -141,7 +141,7 @@ const FloorPlanVideos= () => {
 
 			<div className={styles.textBox}>
 				<div>대전의 의 눈부신 가치위에 찾아오는는</div>
-				<div>수자인의 가치를 영상으로 확인해보세요</div>
+				<div>해링턴 플레이스의 가치를 영상으로 확인해보세요</div>
 			</div>
 
       {/* 두 번째 메뉴바 (탭 메뉴) */}

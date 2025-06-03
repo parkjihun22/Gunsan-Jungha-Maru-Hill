@@ -30,7 +30,7 @@
     div:nth-of-type(2) {
       margin-top: 0.5vw;
       font-weight: 800;
-      color: #07456E;
+      color: #131a40;
     }
   }
   
@@ -117,7 +117,7 @@
     background-color: #FFFFFF; /* 흰색 배경 */
     padding: 10px 0;
     border-radius: 5px; /* 탭 모서리 둥글게 */
-    border: 2px solid #07456E; /* 연한 회색 경계선 */
+    border: 2px solid #131a40; /* 연한 회색 경계선 */
     margin-top: 30px; /* 메뉴바와 탭 메뉴 사이에 간격을 30px 추가 */
 
     @media (max-width: 900px) {
@@ -139,7 +139,7 @@
     margin-right: 30px; /* 탭 사이의 간격 */
     font-size: 1.1rem;
     font-weight: 500;
-    color: #07456E; /* 기본 글자색 */
+    color: #131a40; /* 기본 글자색 */
     cursor: pointer;
     transition: color 0.3s ease, background-color 0.3s ease, border-bottom 0.3s ease;
     position: relative;
@@ -153,12 +153,12 @@
 /* 기본 탭 버튼 호버 상태 */
 .tabMenu button:hover {
     background-color: #f4f7fb; /* 호버 시 배경색 변화 */
-    color: #07456E; /* 호버 시 색상 변경 */
+    color: #131a40; /* 호버 시 색상 변경 */
 }
 
 /* 활성화된 탭 버튼 */
 .tabMenu button.activeTab {
-    background-color: #07456E; /* 활성화된 버튼 배경 */
+    background-color: #131a40; /* 활성화된 버튼 배경 */
     color: #FFFFFF; /* 활성화된 버튼 글자색 */
     font-weight: 600; /* 글씨 두께 증가 */
     border-bottom: 3px solid #FFFFFF; /* 활성화된 탭 아래에 두꺼운 밑줄 */
@@ -166,7 +166,7 @@
 
 /* 탭 버튼이 비활성화 상태일 때 (밑줄 없음) */
 .tabMenu button:not(.activeTab) {
-    color: #07456E; /* 비활성화된 탭 색상 */
+    color: #131a40; /* 비활성화된 탭 색상 */
     border-bottom: 2px solid transparent; /* 밑줄 투명 */
 }
 

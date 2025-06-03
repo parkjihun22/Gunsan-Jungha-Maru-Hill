@@ -14,8 +14,12 @@ import page1 from "../../assets/FloorPlan/FloorPlan5/page1.jpg"
 
 const FloorPlan5 = () => {
 	const menuContents = [
-		{ title: "59㎡", url: "/FloorPlan/59A" },
-		{ title: "84㎡", url: "/FloorPlan/59B" },
+		{ title: "84A㎡", url: "/FloorPlan/59A" },
+		{ title: "84B㎡", url: "/FloorPlan/59B" },
+		{ title: "115㎡", url: "/FloorPlan/84A" },
+		{ title: "142A㎡", url: "/FloorPlan/84B" },
+		{ title: "142B㎡", url: "/FloorPlan/114A" },
+		{ title: "182㎡", url: "/FloorPlan/114B" },
 	
 	];
 
@@ -68,7 +72,7 @@ const FloorPlan5 = () => {
 			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="청약 안내"
+				alt="둔산 해링턴 플레이스 142B 평면도 이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 

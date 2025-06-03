@@ -8,8 +8,10 @@ import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
-// import page1 from "../../assets/ComplexGuide/ComplexGuide1/page1.jpg";
-import Ready from "../../components/Ready/Ready";
+import page1 from "../../assets/ComplexGuide/ComplexGuide1/page1.jpg";
+
+
+
 
 const ComplexGuide1 = () => {
   const menuContents = [
@@ -147,16 +149,16 @@ const ComplexGuide1 = () => {
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      {/* <img
+      <img
         className={`${styles.image2} ${
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
         alt="둔산 해링턴 단지배치도-image1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
-      /> */}
+      />
 
-      {/* <div className={styles.commonBox}>
+      <div className={styles.commonBox}>
         <div className={styles.notice}>
           ※ 상기 단지배치도 이미지는 소비자의 이해를 돕기 위한 것으로 실제와
           차이가 날 수 있습니다
@@ -175,19 +177,8 @@ const ComplexGuide1 = () => {
           ※ 단지 내 어린이놀이터, 주민운동시설, 휴게시설물, 수경시설의 배치와
           디자인은 향후 변경될 수 있습니다.
         </div>
-        <div className={styles.notice}>
-          ※ 단지 외부의 건물,녹지,도로 등은 현재 상황 및 계획을 보여주는 것으로
-          당사의 시공범위가 아니며,CG 및 모형은 소비자의 이해를 돕기 위해 작성된
-          것으로 실제 조성시 상이할 수 있으며 이에 대한 이의를 제기할 수
-          없습니다.
-        </div>
-        <div className={styles.notice}>
-          ※ 인접 지역 개발 등으로 향후 일조 및 조망과 관련한 변경 사항이 있을 수
-          있으며, 이에 따른 사업주체 및 시공사의 귀책사유는 없으므로,사전에
-          사업부지 현장을 방문하여 확인하시기 바랍니다.
-        </div>
-      </div> */}
-        <Ready/>
+        
+      </div>
       <Footer />
     </div>
   );

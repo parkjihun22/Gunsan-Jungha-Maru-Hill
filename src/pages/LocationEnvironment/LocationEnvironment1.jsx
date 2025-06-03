@@ -185,8 +185,7 @@ const LocationEnvironment1 = () => {
 
       <div className={styles.textBox}>
         <div>갈수록 완벽해질 대전  해링턴</div>
-        <div>살수록 높아질 수자인</div>
-        <div>도시를 압도할 효성건설</div>
+        <div>살수록 높아질 해링턴 플레이스</div>
       </div>
 
       <img

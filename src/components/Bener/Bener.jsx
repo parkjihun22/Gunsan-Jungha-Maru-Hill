@@ -63,11 +63,9 @@ const contents = (text, isLoaded) => {
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
                 대전의 대표 랜드마크
                 </div>
+    
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                HUG주택도시보증공사의 보증으로 10년 동안 안심하고 거주할 수 있는 안정성
-                </div>
-                <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    둔산 해링턴
+                    둔산 해링턴 플레이스
                 </div>
             </>
         );

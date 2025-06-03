@@ -13,20 +13,17 @@ import { Helmet } from "react-helmet-async";
 
 const projectData = [
   { label: "사업명", value: "둔산 해링턴 플레이스" },
-  { label: "사업위치", value: "전라북도 대전시   518-1번지 일원" },
-  { label: "대지면적", value: "7,997.00 ㎡" },
-  { label: "건축면적", value: "6,583.1444㎡" },
-  { label: "연면적", value: "71,401.6875㎡" },
-  { label: "용적률", value: "621.32%" },
-  { label: "건축규모", value: "지하1층 ~ 최고 지상46층" },
-  { label: "세대수", value: "378세대 ( 전용 84㎡ A,B,C,D 378세대)" },
+  { label: "사업위치", value: "대전광역시 서구 월평동 1491 일원" },
+  { label: "대지면적", value: "10,715.10 ㎡" },
+  { label: "건축규모", value: "지하 4층 ~ 최고 지상 35층" },
+  { label: "세대수", value: "336세대" },
 ];
 
 const BusinessGuide1 = () => {
   const menuContents = [
     { title: "사업안내", url: "/BusinessGuide/intro" },
     { title: "분양일정", url: "/BusinessGuide/plan" },
-    { title: "선착순계약 서류안내", url: "/BusinessGuide/documents" },
+    // { title: "선착순계약 서류안내", url: "/BusinessGuide/documents" },
   ];
   const [isScroll, setIsScroll] = useState(false);
   const { pathname } = useLocation(); // 현재 경로를 가져옴

@@ -47,27 +47,27 @@ const section3Contents = [
   {
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
-    text1: `대전의 프리미엄 아파트!`,
-    text2: `대전의 중심에서 가장 높은 곳까지!<br />
-            조망, 인프라, 교육, 문화가 담긴 <br />랜드마크를 선사합니다.`,
+    text1: `둔산의 프리미엄 아파트!`,
+    text2: `둔산의 중심에서 가장 높은 곳까지!<br />
+           갑찬뷰 영구조망권을 보장하는 <br />랜드마크를 선사합니다.`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image2,
     title: "PREMIUM 02",
-    text1: `원스톱 교육!`,
-    text2: `미장초등학교, 대전동초등학교, 원광유치원<br />
-            도보통학이 가능하며<br /> 진포중학교, 대전고등학교 등의 명문학군`,
+    text1: `안심교육 환경`,
+    text2: `도보권 학교 등교가 가능<br />
+            도보거리 초등학교로 <br /> 믿을 수 있는 안심학세권 `,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image3,
     title: "PREMIUM 03",
-    text1: `입체 교통망!`,
-    text2: `평단지 앞 번영로를 통한 대전 시내 · 외<br />
-            쾌속교통망과 고속 · 시외버스터미널,<br /> 대전 · 동대전IC가 근접`,
+    text1: `압도적인 광역 교통망`,
+    text2: `대전 지하철 1호선 초역세권 입지<br />
+            쾌속교통망과 고속 · 시외버스터미널 근접`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
@@ -76,7 +76,7 @@ const section3Contents = [
     title: "PREMIUM 04",
     text1: `인프라의 중심!`,
     text2: `엑스마트, 스타벅스, 롯데몰, 대전시청,<br />
-            보건소, 대전전북대학교병원(28년 예정)등의 <br />다양한 인프라`,
+            보건소 등 다양한 인프라`,
     link: "/LocationEnvironment/primium",
     linkText: "더 알아보기 >",
   },
@@ -227,9 +227,9 @@ const Main = () => {
                   " 방문 예약 고객 전원 스타벅스 기프티콘 100% 증정 "
                 </div>
                 <div className={styles.text3}>
-                  - 대전 중심상업지구 매우인접 <br />
-                  - 첨단 아주대학교 종합병원 도보 5분 <br />
-                  - 평택 지제역 1호선, STR, KTX, GTX-A · C 확정으로 펜타역세권 <br />
+                  - 갑천뷰 영구조망 프리미엄 <br />
+                  - 단지 바로 앞 공원으로 힐링라이프 보장 <br />
+                  - 대전 지하철 1호선 도보권으로 초역세권 입지확보 <br />
                   - 모두를 누리는 둔산 해링턴 플레이스
                 </div>
                 <div className={styles.text4}>
@@ -345,7 +345,7 @@ const Main = () => {
   {/* 입력 폼 */}
   <form
     className={styles.pcVisitForm}
-    action="https://formspree.io/f/xvgzeayp"
+    action="https://formspree.io/f/mpwrzjgb"
     method="POST"
   >
     <label htmlFor="name">
@@ -458,10 +458,10 @@ const Main = () => {
               "방문예약을 하시면 신세계 상품권 100% 증정 "
             </div>
             <div className={styles.text3}>
-              - 대전 중심상업지구 가장인접한 입지<br />
-              - 첨단 아주대학교 AI종합병원, 의료R＆D센터 도보 5분<br />
-              - 평택 지제역 KTX, GTX-A · C 확정 삼성전자 평택캠퍼스, 초등학교, 수변공원<br />
-              - 모두를 누리는 반도체밸리 주거 타운의 완성
+                  - 갑천뷰 영구조망 프리미엄 <br />
+                  - 단지 바로 앞 공원으로 힐링라이프 보장 <br />
+                  - 대전 지하철 1호선 도보권으로 초역세권 입지확보 <br />
+                  - 모두를 누리는 둔산 해링턴 플레이스
             </div>
             <div className={styles.text4}>
               {/* 외부 링크 대신 방문예약 클릭 시 팝업 호출 */}
@@ -545,7 +545,7 @@ const Main = () => {
 
   <form
     className={styles.mobileVisitForm}
-    action="https://formspree.io/f/xvgzeayp"
+    action="https://formspree.io/f/mpwrzjgb"
     method="POST"
   >
     <label htmlFor="name">

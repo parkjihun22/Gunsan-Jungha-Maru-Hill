@@ -11,12 +11,16 @@ import Ready from "../../components/Ready/Ready";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-// import page1 from "../../assets/FloorPlan/FloorPlan1/page1.jpg";
+import page1 from "../../assets/FloorPlan/FloorPlan1/page1.jpg";
 
 const FloorPlan1 = () => {
   const menuContents = [
-    { title: "59㎡", url: "/FloorPlan/59A" },
-    { title: "84㎡", url: "/FloorPlan/59B" },
+    { title: "84A㎡", url: "/FloorPlan/59A" },
+    { title: "84B㎡", url: "/FloorPlan/59B" },
+    { title: "115㎡", url: "/FloorPlan/84A" },
+    { title: "142A㎡", url: "/FloorPlan/84B" },
+    { title: "142B㎡", url: "/FloorPlan/114A" },
+    { title: "182㎡", url: "/FloorPlan/114B" },
 
   ];
 
@@ -149,23 +153,23 @@ const FloorPlan1 = () => {
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      {/* <img
+      <img
         className={`${styles.image2} ${
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="둔산 해링턴 플레이스 59타입의평면안내-image1"
+        alt="둔산 해링턴 플레이스 84A 평면도 이미지"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
-      /> */}
+      />
 
-      {/* <div className={styles.commonBox2}>
+      <div className={styles.commonBox2}>
         <div className={styles.notice}>
           ※ 상기 이미지는 전시품목과 유상옵션이 포함된 견본주택을 촬영한 것으로
           타입별 유상옵션 적용학몽, 특화범위 및 위치는 상이하며 실제 시공시
           차이가 있을 수 있습니다.
         </div>
-      </div> */}
-      <Ready/>
+      </div>
+
       <Footer />
     </div>
   );

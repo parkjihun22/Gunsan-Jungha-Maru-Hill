@@ -1,25 +1,28 @@
 import React, { useEffect, useState } from "react";
 import { AiOutlineRight, AiOutlineLeft } from "react-icons/ai";
 import styles from "./UnitplanBox.module.scss";
-import room59A from "../../assets/UnitplanBox/59A.png";
-import room59B from "../../assets/UnitplanBox/59B.png";
-import room84A from "../../assets/UnitplanBox/59A.png";
-import room84B from "../../assets/UnitplanBox/59A.png";
-import room114A from "../../assets/UnitplanBox/59A.png";
-import room114B from "../../assets/UnitplanBox/59A.png";
+import room84A from "../../assets/UnitplanBox/unit01_img01.jpg";
+import room84B from "../../assets/UnitplanBox/unit01_img02.jpg";
+import room115 from "../../assets/UnitplanBox/unit01_img03.jpg";
+import room142A from "../../assets/UnitplanBox/unit01_img04.jpg";
+import room142B from "../../assets/UnitplanBox/unit01_img05.jpg";
+import room182 from "../../assets/UnitplanBox/unit01_img06.jpg";
 import { useMediaQuery } from "react-responsive";
 
 const contents = [
-    { type: '59㎡', src: room59A },
-    { type: '84㎡', src: room59B },
-
+    { type: '84A㎡', src: room84A },
+    { type: '84B㎡', src: room84B },
+    { type: '115㎡', src: room115 },
+    { type: '142A㎡', src: room142A },
+    { type: '142B㎡', src: room142B },
+    { type: '182㎡', src: room182 },
 
 ]
 
 const UnitplanBox = () => {
     const [istype, setIsType] = useState(contents[0]); // 기본값은 첫 번째 객체
     const [isIdx, setIdx] = useState(0);
-    const [isImage, setIsImage] = useState(room59A);
+    const [isImage, setIsImage] = useState(room84A);
     const [isLeft, setIsLeft] = useState(false); // 처음에는 왼쪽으로 갈 수 없음
     const [isRight, setIsRight] = useState(true); // 처음에는 오른쪽으로 갈 수 있음
     const [animationClass, setAnimationClass] = useState(''); // 애니메이션 클래스 상태

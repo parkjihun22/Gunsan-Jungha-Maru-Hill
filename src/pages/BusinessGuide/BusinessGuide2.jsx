@@ -8,14 +8,14 @@ import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
-// import page1 from "../../assets/BusinessGuide/BusinessGuide2/page1.jpg";
-import Ready from "../../components/Ready/Ready";
+import page1 from "../../assets/BusinessGuide/BusinessGuide2/page1.jpg";
+
 
 const BusinessGuide2 = () => {
   const menuContents = [
-    { title: "분양일정", url: "/BusinessGuide/intro" },
+    { title: "사업안내", url: "/BusinessGuide/intro" },
     { title: "분양일정", url: "/BusinessGuide/plan" },
-    { title: "선착순계약 서류안내", url: "/BusinessGuide/documents" },
+    // { title: "선착순계약 서류안내", url: "/BusinessGuide/documents" },
   ];
   const [isScroll, setIsScroll] = useState(false);
   const [isImageVisible, setIsImageVisible] = useState(false); // isImageVisible 상태 추가
@@ -146,12 +146,12 @@ const BusinessGuide2 = () => {
       </div>
 
       {/* 이미지에 isImageVisible 상태 적용 */}
-      {/* <img
+      <img
         className={`${styles.image4} ${isImageVisible ? styles.visible : ""}`}
         src={page1}
         alt="둔산 해링턴 플레이스 분양일정안내-image1"
-      /> */}
-      <Ready/>
+      />
+
       <Footer />
     </div>
   );
