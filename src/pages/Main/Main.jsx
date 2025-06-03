@@ -444,7 +444,7 @@ const Main = () => {
                 부담을 덜어주는<br />
                 <span className={styles.greyText}>분양금 지원</span><br />
                 500만원으로 내집마련<br />
-                <span className={styles.greyText}>착학조권</span>
+                <span className={styles.greyText}>착한조건</span>
               </div>
               <div className={styles.mainImageTitleBox1}>
                 <div className={styles.mainImageText1}>둔산 해링턴 플레이스</div>
