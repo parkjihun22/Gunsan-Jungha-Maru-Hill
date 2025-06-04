@@ -199,6 +199,7 @@ const Main = () => {
                 갑천뷰 영구조망 <span className={styles.greyText}>갑천 뷰 프리미엄</span> | 부담을 덜어주는 <span className={styles.greyText}>분양금 지원</span> | 입주까지 500만원으로 내집마련 <span className={styles.greyText}>착한조건</span>
               </div>
               <div className={styles.mainImageTitleBox}>
+              
                 <div className={styles.mainImageText}>둔산 해링턴 플레이스</div>
                 <div className={styles.mainImageLine}></div>
               </div>
